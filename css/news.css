@@ -1,0 +1,41 @@
+.layout{width:980px;margin:auto;clear:both;margin-top:10px;}
+.leftArea{float:left;padding:0 0 0 12px;text-align:left;width:636px}
+.rightArea{float:right;padding:9px 9px 0;width:297px;background:#ebf5ff}
+#process{margin-bottom:5px;font-size:12px;color:#b7b7b7}
+#process SPAN{font-size:14px}
+#articalList{border-top:1px solid #CCC;padding:0 0 20px;height:1%}
+#articalList DL{margin-top:20px;padding:0 20px}
+#articalList DT{clear:both;padding-top:5px;font-size:0;height:0}
+#articalList .col01{float:left;width:100px}
+#articalList .col02{float:left;width:490px}
+#listNew #articalList DL{width:424px;float:left;display:inline}
+HTML>BODY #listNew #articalList DL{width:430px}
+#listNew #articalList .col02{width:330px}
+.hotPro A,.hotPro-01 A{text-decoration:underline;line-height:18px;margin:0 5px 0 0}
+dl {display: block;-webkit-margin-before: 1em;-webkit-margin-after: 1em;-webkit-margin-start: 0px;-webkit-margin-end: 0px;}
+dl.pImg {height: 1%;padding: 0 0 0 2px;clear: both;overflow: hidden;zoom: 1;}
+.pImg dd{float:left;display:inline;text-align:center;width:93px;height:190px}
+.pImg dd .image{float:none;width:80px;height:80px}
+.pImg dt{clear:both;font-size:0;height:0;overflow:hidden}
+.box-01,.box-02,.box-03,.box-04,.boxLink{margin-bottom:9px;padding:0 7px;border:1px solid #CCC;text-align:left;background:#FFF}
+.box-01 H3,.box-02 H3,.box-03 H3,.box-04 H3{margin-bottom:10px;padding:5px 0 0;font-size:18px;color:#000;border-bottom:1px solid #CCC;height:1%}
+.box-01 H3 A:link,.box-01 H3 A:visited,.box-02 H3 A:link,.box-02 H3 A:visited,.box-03 H3 A:link,.box-03 H3 A:visited,.box-04 H3 A:link,.box-04 H3 A:visited{color:#000;text-decoration:none}
+.box-01 H3 A SPAN,.box-02 H3 A SPAN,.box-03 H3 A SPAN,.box-04 H3 A SPAN{font-size:18px;color:#174690}
+.box-01 H3 A:hover,.box-01 H3 A:hover SPAN,.box-02 H3 A:hover,.box-02 H3 A:hover SPAN,.box-03 H3 A:hover,.box-03 H3 A:hover SPAN,.box-04 H3 A:hover,.box-04 H3 A:hover SPAN{color:#F60;text-decoration:none}
+.box-01 H4 A,.box-02 H4 A,.box-03 H4 A{font-size:12px;font-weight:bold}
+.box-01 .image,.box-03 .image{float:left;width:124px}
+
+/*detail page css*/
+#rightArea .tag{font-size:11px;color:#555;line-height:18px;padding:0 0 15px;height:1%;display:table}
+#rightArea .tag A{text-decoration:underline;margin:0 4px 0 0;display:block;float:left;width:130px;font-size:11px;line-height:22px}
+#headLine H1{margin-bottom:5px;padding-bottom:5px;border-bottom:1px solid #CCC;font-size:18px}
+#headLine .address{margin-bottom:10px;font-size:11px;text-align:right;color:#8c8c8c}
+#headLine .artical{font-size:12px;}
+#headLine .artical p{margin-bottom:10px;line-height:1.7;font-size:12px;}
+#headLine .artical p span{font-size:12px;color:#999}
+.box-03 ol.colstwo{display:table;height:1%}
+.box-03 ol.colstwo li{float:left;width:300px}
+.wrapClear{clear:both;overflow:hidden;zoom:1}
+.viewAll{margin-bottom:10px}
+.viewAll a.color{font-size:11px;color:#a4621c}
+.viewAll a.color:hover{color:#F60}

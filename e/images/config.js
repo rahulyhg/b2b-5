@@ -1,0 +1,1 @@
+var DTPath = "http://t.com/";var SKPath = "http://t.com/skin/default/";var MEPath = "http://t.com/member/";var EXPath = "http://t.com/extend/";var CKDomain = "";var CKPath = "/";var CKPrex = "cfq_";

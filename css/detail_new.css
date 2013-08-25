@@ -1,0 +1,128 @@
+#product_pic{float:left}
+#product_data .inq_p0{margin-top:7px;margin-top:20px;width:100%;text-align:center;font-size:11px;line-height:1.2}
+#product_data .inq_p0 a{margin:0 auto}
+#descimglist{margin:5px auto;width:100%}
+#descimglist li{list-style:none outside none}
+#descimglist img{margin:3px auto;max-width:700px}
+#post_inquires{padding:10px 5px;border:2px solid #9cda39}
+#post_inquires table{width:100%}
+#post_inquires tr{line-height:26px}
+#post_inquires th{padding:3px 8px 3px 0;width:110px;vertical-align:top;text-align:right;font-weight:bold}
+#post_inquires td{padding:3px 8px 3px 0}
+#post_inquires .inq_input{margin-right:5px;margin-bottom:5px;padding:3px 2px;height:18px;border:1px solid #ccc;box-shadow:0 1px 2px rgba(0,0,0,0.1) inset;vertical-align:middle;font-family:arial;line-height:18px}
+#post_inquires .inq_topic{width:96%}
+#post_inquires .inq_email{width:345px}
+#post_inquires .inq_message{padding:3px;border:1px solid #ccc;box-shadow:0 1px 2px rgba(0,0,0,0.1) inset}
+#post_inquires .inq_person{margin:3px 4px}
+#post_inquires .inq_comp{margin-left:20px;font-weight:bold}
+#comp_right{float:right;padding-top:10px;width:250px}
+.divbox{margin:8px 0 0;border:1px solid #e6e6e6}
+.divbox h2{padding:8px;border:0 none;background:none repeat scroll 0 0 #f1f1f1;box-shadow:0 1px 0 #f2f2f2,0 1px 0 #fff inset;color:#3e434a;font-weight:700;font-size:14px;line-height:16px}
+.supplier_box{padding:10px 8px;border:1px solid #eee}
+.supplier_box h3{padding:0 0 5px 0;font-weight:700;font-size:14px;line-height:16px}
+.supplier_comp{padding:0 0 5px 0;border-bottom:1px dotted #e6e6e6}
+.supplier_comp p{padding:0 0 8px 0;line-height:16px}
+.homegap_leftc{padding-top:5px;width:210px}
+.homegap_leftc li{float:left;padding:5px 2px;width:100%;border-bottom:1px solid #e6e6e6;line-height:20px}
+.homegap_leftc p{width:178px;height:25px;color:#333;font-weight:bold;font-size:12px;line-height:25px}
+.homegap_leftc li span{margin-right:5px}
+.homegap_leftc li strong{float:left;padding-left:5px;width:155px;font-weight:normal}
+.homegap_leftc li.homgap_leftc_c1 span{float:left;display:block;width:18px;height:18px;background:url("../images/tubiao.gif") 0 -1px no-repeat}
+.homegap_leftc li.homgap_leftc_c2 span{float:left;display:block;width:18px;height:18px;background:url("../images/tubiao.gif") 0 -25px no-repeat}
+.homegap_leftc li.homgap_leftc_c3 span{float:left;display:block;width:18px;height:18px;background:url("../images/tubiao.gif") 0 -51px no-repeat}
+.homegap_leftc li.homgap_leftc_c4 span{float:left;display:block;width:18px;height:18px;background:url("../images/tubiao.gif") 0 -76px no-repeat}
+.homegap_leftc li.homgap_leftc_c5 span{float:left;display:block;width:18px;height:18px;background:url("../images/tubiao.gif") 0 -98px no-repeat}
+.supplier_box .supplier_link{margin:10px 0 0}
+.supplier_box .supplier_link span{display:inline-block}
+.supplier_box .supplier_link span.link_site{margin:6px 0 0 8px;padding-left:28px;border-left:1px dotted #eee;background:url("http://www.tootoo.com/images/tubiao.gif") 0 -98px no-repeat}
+.supplier_box .supplier_link span.link_con{margin:6px 0 0 0;padding-left:22px;background:url("../images/tubiao.gif") 0 -1px no-repeat}
+.page_info{margin:10px 0 0;padding:10px 8px;background:none repeat scroll 0 0 #f6f6f6}
+.google_ads{margin:0 0 6px;padding:10px;border:1px dotted #eee;text-align:center}
+#product_mid_data{float:left;margin-bottom:15px;padding-left:10px;width:450px}
+#product_mid_data table,.table{width:100%}
+#product_mid_data th,#product_mid_data td,.table th,.table td{padding:5px}
+#product_mid_data th,.table th,.table .th{width:80px;text-align:right;font-weight:bold}
+#product_mid_data .inq_p0{float:left;overflow:hidden;width:154px;height:28px;cursor:pointer}
+#product_data{float:left;padding-left:10px;width:450px}
+#product_data table,.table{width:100%;border:1px solid #DDD;background:#f9f9f9}
+#product_data th,#product_data td,.table th,.table td{padding:5px;border:1px solid #DDD}
+#product_data th,.table th,.table .th{width:140px;text-align:right;font-weight:bold}
+#product_pic{float:left;display:inline;margin:-8px 10px 15px 0;width:210px}
+#product_pic p{margin-top:7px;text-align:center;font-size:11px;line-height:1.2}
+#product_pic p a,#product_pic p span.btn_already_add{display:block;margin:0 auto;color:#497202}
+#product_pic p a:hover{text-decoration:none}
+#product_pic #product_images{position:relative;display:block;overflow:hidden;padding:10px 0 0 10px;width:200px;height:200px;text-align:center;line-height:200px}
+#product_pic #product_images img{z-index:1;vertical-align:middle}
+#product_pic #product_images .pic_layer{position:absolute;top:0;left:0;z-index:2;display:block;width:212px;height:211px;background:url(http://img.tootoo.com/ttnew/background4.gif) no-repeat 0 -37px}
+#product_pic a{cursor:pointer}
+.product_desc{clear:both;padding:5px;overflow: hide;}
+.product_desc h3{padding:10px 3px 5px;border-bottom:1px dotted #ddd;color:#ff8a00;font-weight:700;font-size:16px}
+.product_desc .txt{margin-top:5px}
+.product_desc table br,#product_introduce td br,#product_introduce tr br,#product_introduce th br,#product_introduce tbody br{display:none}
+.product_desc th,.product_desc td{padding:3px}
+.product_desc th{font-weight:bold}
+.product_inquire{text-align:center}
+.product_inquire .hand{display:block;margin:0 auto;width:156px;height:33px;background:url(../images/background4.gif) no-repeat -215px -226px;text-indent:-9999px}
+#content{float:left;/*display:inline;*/margin-top:15px;margin-right:4px;width:690px;overflow: hide;}
+#content .section_tit{clear:both;padding:0 0 0 60px;height:26px;background:#e6e6e6 url(../images/background4.gif) no-repeat -448px -397px;color:#FFF;font:bold 13px 'Tohoma','Verdana',sans-serif}
+#content .section_tit h2{overflow:hidden;height:26px;background:#e6e6e6 url(../images/background4.gif) no-repeat 100% -423px;color:#34629b;line-height:26px}
+#content .section_txt{margin:10px}
+#content .section_txt .seemore{margin-left:10px;padding-left:10px;background:url("../images/cat2_03.jpg") no-repeat scroll 0 4px transparent}
+.com_adv{display:block;margin-bottom:10px;color:#000;font-weight:bold;font-size:13px;font-family:Georgia,Palatino,'Times New Roman',Times,serif;line-height:18px}
+.product_tit{margin-bottom:10px;padding:0 10px}
+.product_tit h1{color:#3e434a;word-wrap:break-word;font-size:17px}
+#miniprew{overflow:hidden;margin:5px 0 5px 10px;zoom:1}
+#miniprew li{float:left;display:inline;margin:0 4px 0 0;padding:7px 2px 2px 2px}
+#miniprew li.on{background:url(http://img.tootoo.com/ttnew/bg_mini.gif) no-repeat 0 0}
+#miniprew li a{position:relative;display:block;overflow:hidden;width:40px;height:40px;border:1px solid #c6c5c5;text-align:center;line-height:40px}
+#miniprew li a:hover{border:1px solid #f60}
+#miniprew li img{vertical-align:middle}
+.inq_p1{margin-top:30px;margin-bottom:15px}
+.inq_p1 p{position:relative;overflow:hidden;margin-top:-28px;margin-left:250px;width:154px;height:28px;cursor:pointer}
+.inq_p1 a{display:block;width:154px;height:28px;background:url(../images/background4.gif) no-repeat 0 -462px}
+#product_mid_data .already_in_basket{margin:6px 0 4px 40px;width:172px;height:26px;background:url(../images/background4.gif) no-repeat 0 -274px}
+.inq_p0{position:relative;overflow:hidden;margin-left:35px;width:154px;height:28px;cursor:pointer}
+.inq_p0 a{display:block;width:154px;height:28px}
+.inq_p0 button{display:block;width:154px;height:28px;background:url(../images/background4.gif) no-repeat 0 -462px;cursor:pointer}
+.send_inquire{margin:4px auto;background:url(../images/background4.gif) no-repeat 0 -462px}
+.bigpic{text-align:center}
+#buy_main{margin:2px auto 10px;text-align: left;width: 960px;z-index: 9999;}
+.crumb{margin:0 auto;padding:8px 0;width:100%;line-height:18px}
+.crumb a{color:#15c;text-decoration:none}
+.crumb h1{display:inline}
+#zoom1{position:relative;display:block;overflow:hidden;width:212px;height:211px;text-align:center;line-height:211px}
+#zoom1 img{z-index:1;vertical-align:middle}
+#zoom1 .pic_layer{position:absolute;top:0;left:0;z-index:2;display:block;width:212px;height:211px;background:url("../images/background4.gif") no-repeat scroll 0 -37px transparent}
+#post_inquires .alert{display:block;padding:1px 0;color:#f20}
+.g_wrap{padding:5px 15px 15px;border:1px dotted #ccc}
+.gone_by a{color:#000;text-decoration:none}
+.gone_tit{margin-bottom:5px;text-align:center;font-weight:bold;font-size:18px}
+.gone_tit a{color:#3168ad;text-decoration:none}
+.gone_txt{margin-bottom:5px;text-align:center}
+.gone_url{text-align:center}
+.gone_url a{color:#008000;text-decoration:none}
+.g_list{margin:5px 5px 0 0;padding:0 15px 5px 5px}
+.g_tit{padding-top:3px;padding-left:8px;border-top:1px solid #fff}
+.g_tit a{color:blue;font-size:14px}
+.g_by,.g_txt{padding-bottom:2px;padding-left:8px;border-bottom:1px solid #e2e2e2;line-height:18px}
+.g_txt a{margin-right:8px;color:#008000;text-decoration:none}
+#google_translate_element select{margin:0}
+.g3_wrap{margin:15px 0}
+.g3_tit{margin-right:6px;color:#3168ad;text-decoration:underline;font-weight:bold;font-size:14px;line-height:15px}
+.g3_url{color:#008000;white-space:nowrap;font-size:12px;line-height:14px}
+.g3_txt{margin-top:5px;color:#666;font-size:15px;line-height:14px}
+.gtit{margin:10px 5px 0 0}
+.gtit a{color:#000;font-weight:bold;font-size:14px}
+.gtit a:hover{color:#f60}
+.gdesc{display:block}
+.gurl{color:#174690;text-decoration:none}
+.gdesc b,.gtit b{color:#f32f02}
+
+.wrapfix:after{clear:both;display:block;visibility:hidden;height:0;content:".";font-size:0}
+#send_inquiry{margin-top:5px}
+.product_list{overflow:hidden;line-height:1.5}
+.product_list li{float:left;overflow:hidden;margin:0 2px 5px 0;padding:18px 0 10px;width:169px;height:160px;background:url(http://img.tootoo.com/ttnew/background4.gif) no-repeat -214px -37px;text-align:center;_display:inline}
+.product_list .pic{position:relative;display:block;overflow:hidden;margin:0 auto 5px;padding:1px;width:80px;height:80px;border:1px solid #DDD;text-align:center;white-space:nowrap;font-size:10px;line-height:80px}
+.product_list .pic img{vertical-align:middle}
+.product_list .txt{display:block;margin:5px 13px;height:35px;text-align:center;font-size:11px}
+.product_list .inquire{display:block;margin:0 auto;width:101px;height:24px;background:url(../images/background4.gif) no-repeat -400px -495px;text-indent:-9999px}

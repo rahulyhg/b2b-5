@@ -1,0 +1,41 @@
+/* content start*/
+#content{padding-top:30px; width:950px; margin:auto;color:#333}
+h3{font-size:18px; line-height:32px; padding-bottom:8px;}
+.maincontent{float:left;width:550px;}
+.registermaincon{float:left;width:660px;}
+.outerbox{ padding:0 0 10px 20px; }
+.notebox{border:1px solid #ffdb83; padding:10px; background:#fff9e1; color:#f00; margin-bottom:15px;}
+.correctbox {
+    background: url(/img/bg.png) no-repeat -408px -27px #F6FDF3;
+    border: 1px solid #C8DD89;
+    padding: 10px 10px 10px 50px;
+    text-align: left;
+}
+/*signbox*/
+.lefttitle,.titleweight{float:left; width:145px; padding-right:10px; margin-bottom:10px; text-align:right; font-size:14px;}
+.rtcon{ padding:0 0 10px 10px;}
+.rtcon input{margin-right:10px;}
+.verify{ padding:0 0 20px 162px;}
+.verify p{margin-bottom:10px;}
+.verify img{margin-right:18px; width:204px; height:50px;}
+.txtinput,.txtinputb{padding:2px 0 2px 2px; width:200px; height:30px; line-height:30px; border:1px solid #a5acb2;}
+.txtcode{padding:2px 0 2px 2px; width:100px; height:30px; line-height:30px; border:1px solid #a5acb2;}
+.pwdbox{padding-left:160px;}
+.rtcon label *,.verify label *{vertical-align:middle;}
+.rtcon .checkinput,.verify .checkinput{margin-right:5px;}
+.newtobox,.correctbox{margin-bottom:30px;}
+.newtobox .commonBtn{float:left; margin-right:10px;}
+/*btn*/
+.tourBtn,.yellowBtn{margin-left:130px;height:31px;background:#ed7d11;border-width:0 1px 1px 0;border-right:1px solid #c1bcc2;border-bottom:1px solid #bfbeb9;margin-right:4px;overflow:hidden;display: inline-block}
+.yellowBtn{height:28px;}
+.tourBtn a,.tourBtn input,.yellowBtn a,.yellowBtn input{border:1px solid #ed7d11;border-color:#ed7d11 #da6f00 #df6b06 #ed7d0f;display:block;height:29px;padding:0 20px;color:#fff;background:url(../images/btnline.png) repeat-x 0 0;text-decoration:none;text-align:center;color:#fff;font:bold 16px/29px Arial, Helvetica, sans-serif;cursor:pointer;overflow:hidden;display:inline-block;*vertical-align:middle;float:left}
+.yellowBtn a,.yellowBtn input{height:26px;font-size:12px;line-height:25px;}
+.tourBtn input,.yellowBtn input{border:0;margin:1px;overflow:visible;text-indent:inherit;}
+.tourBtn:hover,.yellowBtn:hover{text-decoration:none;cursor:pointer;background:#a43c00;color:#fff;}
+.tourBtn:hover a,.tourBtn:hover input,.yellowBtn:hover a,.yellowBtn:hover input{border-color:#c75717 #a43c00 #a43c00 #c75717;background-position:0 -29px;text-decoration:none;color:#fff;}
+.commonBtn{height:29px;border-width:1px;border-style:solid;border-color:#bbb #999 #999 #bbb;margin-right:4px;overflow:hidden;display:inline-block}
+.commonBtn a,.commonBtn input{border:0;display:block;height:27px;padding:0 20px 2px 20px;color:#fff;background:url(../images/btnline.png) repeat-x 0 -58px;text-decoration:none;text-align:center;color:#333;font:bold 16px/29px Arial, Helvetica, sans-serif;cursor:pointer;overflow:hidden;display:inline-block;*vertical-align:middle;float:left;border-color:#549bdd #004b91 #004b91 #549bdd;text-decoration:none;color:#333;}
+.commonBtn input{overflow:visible;text-indent:inherit; margin-right:0;}
+.commonBtn:hover{border-color:#549bdd #004b91 #004b91 #549bdd;text-decoration:none;color:#333;}
+.minorcontent{float:right; width:390px;}
+.protectbox{margin-bottom:10px;}
