@@ -16,4 +16,6 @@ e/data/adminlogin/*.log
 e/data/tmp/dt_templist1.php
 e/data/tmp/index.php
 e/data/dbcache/class.php
+crawler/data/
+crawler/log/
 
