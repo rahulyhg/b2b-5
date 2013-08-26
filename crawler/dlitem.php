@@ -206,6 +206,9 @@ function crawler($itemurl)
 				
 				preg_match('/<li>Country : (.*?)<\/li>/si',$content,$match);
 				$country = $match[1];
+                
+                preg_match('/<li>Total Annual Sales Volum : (.*?)<\/li>/si',$content,$match);
+                $revenue= $match[1];
 
 				$data = array(
 					'title'=>$title,
@@ -241,6 +244,7 @@ function crawler($itemurl)
 					'business_market'=>$business_market,
 					'weburl'=>$weburl,
 					'company_info'=>$company_info,
+                    'revenue'=>$revenue,
 				);
 				//print_r($data);die;
 				append_file($cache_file, json_encode($data));
