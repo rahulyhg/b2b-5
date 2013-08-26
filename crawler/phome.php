@@ -210,8 +210,11 @@ foreach ($datadirArr as $datadir) {
                //$pricearr = explode('~', $price);
                //$price1 = $pricearr[0];
                //$price2 = $pricearr[1];
-               if($price=='' || $price='0.00') $price = round(1,20);
-               if($order == '' || $order=='0') $order = round(20,1000);
+               if($price=='' || $price='0.00') $price = rand(1,20);
+               if($order == '' || $order=='0') $order = rand(20,1000);
+
+          
+               if(!$arrivetime) $arrivetime = rand(10,30);
                $newkeyword = explode(',',addslashes(strip_tags($keywords)));
 			   $len = count($newkeyword);
 			   if($len >=2)

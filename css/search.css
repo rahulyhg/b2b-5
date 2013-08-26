@@ -26,8 +26,6 @@
 .prolist-info h4{max-height:32px;overflow:hidden;margin-bottom:10px;font:700 13px/16px Arial;word-wrap:break-word}
 .prolist-info p{font:12px Arial;max-height:30px;overflow:hidden}
 .prolist-info em{display:block;}
-.sellerinfo{font:10px/1.5 Verdana;padding-top:7px}
-.sellerinfo a{margin-right:10px}
 
 .sunico{display:inline-block;background:url(../images/search2.png) no-repeat 80px -510px;padding:0 18px 0 0;font-family:'宋体';font-size:11px;text-decoration:underline}
 .photo{display:table;*display:block;table-layout:fixed;width:100px;height:100px;border:1px solid #ddd;vertical-align:middle}
@@ -67,7 +65,7 @@
 .bookmark .li13{background-position:0 -865px}
 .bookmark .goog{background:0;padding:0}
 
-.sellerinfo{font:10px/1.5 Verdana;padding-top:7px;}
+.sellerinfo{font:12px/1.5 Verdana;padding-top:2px;}
 .sellerinfo a{margin-right:10px;}
 .factoryico,.factory_icon{display:inline-block;width:15px;height:12px;background:url(../images/h-bg1.png) no-repeat -0px -418px;margin-right:0px;}
 .mailico{display:inline-block;padding-left:20px;background:url(../images/search2.png) no-repeat 0 -448px;}
@@ -77,10 +75,9 @@
 .ad_top .google_title a{text-decoration:none;}
 .ad_top .google_adtitle{display:block; margin:0 0 5px 0; font-size:18px; color:blue; text-decoration:none;}
 
-
 .merchant-t, .merchant-p {
 display: block;
-background: url(http://www.dhresource.com/dhs/fob/img/search/sbg2.png) no-repeat 0 -1220px;
+background: url(../images/sbg2.png) no-repeat 0 -1220px;
 padding: 2px 0 3px 25px;
 font: 9px/10px Verdana;
 color: #999;
@@ -98,3 +95,8 @@ font: 9px/10px Verdana;
 color: #999;
 white-space: nowrap;
 }
+
+.pro-sold{font-size:12px; color:#999; margin-bottom:2px;line-height:18px;}
+.pro-sold span{display:inline-block;}
+.pro-sold .rating{margin:0 5px 0 0; vertical-align:middle;}
+.pro-sold b,.pro-sold .num{display:inline;color:#666; font-weight:100;}
