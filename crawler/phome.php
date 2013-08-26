@@ -4,9 +4,8 @@
  * 每10分钟执行一次入库操作
  */
 error_reporting(1);
-require_once('../config.php');
-$area = include '../cache/area.php';
-$sellcate = include '../cache/sellcate_phome.php';
+require_once('config.php');
+$sellcate = include 'sellcate_phome.php';
 //设置变量
 $scriptname = basename($argv[0]);
 $script = substr($scriptname, 0, -4);
@@ -51,8 +50,8 @@ $disarr = array(
 'Others',
 );
 
-$country_arr = load_hist_file('../cate/country.log');
-$code_arr = load_hist_file('../cate/country_code.log');
+$country_arr = load_hist_file('country.log');
+$code_arr = load_hist_file('country_code.log');
 
 //单进程运行
 /*
@@ -65,7 +64,7 @@ $db->query('TRUNCATE enenewsmemberadd');
 $db->query('TRUNCATE enecms_news'); 
 $db->query('TRUNCATE enecms_news_data_1'); 
 $db->query('TRUNCATE enecms_news_index'); 
-die;
+
 $db->autocommit(0);
 foreach ($datadirArr as $datadir) {
 	$bak_dir = "$datadir/bak";
@@ -110,13 +109,6 @@ foreach ($datadirArr as $datadir) {
 				//获取数据后，写数据库
 				extract($data);
                 
-                //判断国家
-                $areaid =2;
-                $newcountry = strtolower($country);
-                $areakey = md5($newcountry);
-                if(isset($area[$areakey]))
-                    $areaid = $area[$areakey];
-                
                 //判断类别
                 if(trim($mcate)=='')
                 {
@@ -148,7 +140,7 @@ foreach ($datadirArr as $datadir) {
 				}
 				
 				echo $country.'----------'.$country_code.chr(10);
-				//continue;
+				#continue;
 				
 				
 				
@@ -218,6 +210,8 @@ foreach ($datadirArr as $datadir) {
                //$pricearr = explode('~', $price);
                //$price1 = $pricearr[0];
                //$price2 = $pricearr[1];
+               if($price=='' || $price='0.00') $price = round(1,20);
+               if($order == '' || $order=='0') $order = round(20,1000);
                $newkeyword = explode(',',addslashes(strip_tags($keywords)));
 			   $len = count($newkeyword);
 			   if($len >=2)

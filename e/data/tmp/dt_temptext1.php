@@ -258,7 +258,7 @@ $bqno++;
     <li class="homgap_leftc_c3"><span></span>[!--phone--]</li>
     <li class="homgap_leftc_c4"><span></span>[!--phone--]</li>
     <li class="homgap_leftc_c3"><span></span>[!--fax--]</li>
-    <li class="homgap_leftc_c5"><span></span><strong>Address:[!--company_name--],[!--country--]</strong></li>
+    <li class="homgap_leftc_c5"><span></span><strong>Address:[!--address1--],[!--country--]</strong></li>
     </ul>
 	<div class="supplier_link">
 	<span class="link_con"><a href="[!--news.url--]sp/[!--userid--].html">Contact Details</a></span>

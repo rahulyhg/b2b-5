@@ -4,20 +4,16 @@ require(ECMS_PATH.'e/data/template/cp_3.php');
 ?>
 <link type="text/css" rel="stylesheet" href="<?=$public_r['newsurl']?>css/search.css?v=1348641807043" />
 <div class="layout">
-	<div class="col-main">
+<div class="col-main">
         <div id="colRight" class="col-right clearfix">
             <div class="maincontainer">
                 <div class="maincontent" style="margin-right: 0">
-                    <div class="topfilter">
-                        <div class="search-result">
-			<b>3,344</b><span> wholesale items found </span><span>in</span>&nbsp;&nbsp;<h2>[!--class.name--]</h2> 
-                        </div>
-                    </div>
+  
                     <div id="proList" class="prolist">
 
                         <div class="probox">
     <div class="photo">
-        <img src="[!--news.url--]/images/no.jpg" style="width: 100px; height: 100px;">
+        <img src="<?=$public_r['newsurl']?>images/nopic.gif" style="width: 100px; height: 100px;">
     </div>
     <div class="prolist-info">
 <script type="text/javascript"><!--
@@ -113,4 +109,5 @@ while($r=$empire->fetch($sql))
 </dl>
 </div>
 </div>
+<div class="clearfix"></div>
 <?php require(ECMS_PATH.'e/data/template/cp_2.php');?>

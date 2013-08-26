@@ -97,7 +97,7 @@ if(!defined('InEmpireCMS'))
 
 <div class="probox">
     <div class="photo">
-        <img src="[!--news.url--]/images/no.jpg" style="width: 100px; height: 100px;">
+        <img src="[!--news.url--]/images/nopic.gif" style="width: 100px; height: 100px;">
     </div>
     <div class="prolist-info">
 <script type="text/javascript"><!--
