@@ -126,7 +126,7 @@ $ecms_config['sets']['realplayertype']=',.rm,.ra,.rmvb,.mp4,.mov,.avi,.wav,.ram,
 
 //------------e_public
 $public_r=array('sitename'=>'Global Marketing Place',
-'newsurl'=>'http://test.ad.com/',
+'newsurl'=>'http://test.b2b.com/',
 'filetype'=>'|.gif|.jpg|.swf|.rar|.zip|.mp3|.wmv|.txt|.doc|',
 'filesize'=>2048,
 'relistnum'=>8,

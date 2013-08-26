@@ -3,8 +3,6 @@ error_reporting(1);
 //Global设置
 umask(0000);
 $libdir= dirname(__FILE__).'/lib';
-$hist_db = 'yg_data_'.date('Y');
-require("$libdir/class.phpmailer.php");
 require("$libdir/crawler.php");
 $root_dir = dirname(__FILE__);
 
@@ -128,37 +126,6 @@ function kecrypt($txt, $key) {
 	return $str;
 }
 
-//邮件配置
-$mail = new PHPMailer();
-$mail->IsSMTP();		// set mailer to use SMTP
-$mail->PluginDir = "$libdir/";	// smtp class path
-$mail->Host = 'smtp.qq.com';	// specify main and backup server
-$mail->Port = 465;
-$mail->SMTPSecure = 'ssl';
-$mail->SMTPAuth = true;		// turn on SMTP authentication
-$mail->Username = 'eboss_yg@ygdianshang.com';	// SMTP username
-$mail->Password = 'sujie8810';	// SMTP password
-$mail->CharSet = 'utf-8';
-$mail->From = 'eboss_yg@ygdianshang.com';
-$mail->FromName = "eboss";
-$mail->Hostname = '123.ygdianshang.com';
-//$mail->AddAddress('18611791141@163.com', 'yejianfeng');
-//$mail->AddAddress('13693186674@139.com','duchutian');
-//$mail->AddAddress('zhangchenglu@analysys.com.cn','zhangchenglu');
-$mail->AddAddress('liangpingzheng@analysys.com.cn','liangpingzheng');
-function sendmail($Subject, $Body='', $isHTML=false) {
-	global $mail;
-	$mail->IsHTML($isHTML);
-	$mail->Subject = $Subject;
-	$mail->Body    = $Body? $Body : $Subject;
-	if(!$mail->Send())
-	{
-		echo "Message could not be sent. Mailer Error: " . $mail->ErrorInfo;
-		return false;
-	}
-	return true;
-}
-
 
 include "$libdir/mysql.php";
 //数据库配置
@@ -177,8 +144,6 @@ $db= new mysql();
 $db->open($config);
 
 //采集配置
-$itemurl = "http://www.corpmarket.com/sell/list-2-0-0-%d.html"; //采集列表页
-$pages = 6000; //采集起始页
 $retry = 13;
 $interval = 10;
 
@@ -189,19 +154,10 @@ $table_pre = 'en';
 
 
 $listmcat = array(
-  '2'=>'http://www.corpmarket.com/sell/list-4-104001000-0-%d.html',
-  '1'=>'http://www.corpmarket.com/sell/list-4-104002000-0-%d.html',
-  '3'=>'http://www.corpmarket.com/sell/list-4-104003000-0-%d.html',
+  '20'=>'http://www.corpmarket.com/sell/list-4-104001000-0-%d.html',
+  '10'=>'http://www.corpmarket.com/sell/list-4-104002000-0-%d.html',
+  '30'=>'http://www.corpmarket.com/sell/list-4-104003000-0-%d.html',
 
-  //''=>'http://www.corpmarket.com/sell/list-4-104011000-0-%d.html',
-  //''=>'http://www.corpmarket.com/sell/list-4-104012000-0-%d.html',    
-  //''=>'http://www.corpmarket.com/sell/list-4-104013000-0-%d.html',
-  //''=>'http://www.corpmarket.com/sell/list-4-104014000-0-%d.html',
-  //''=>'http://www.corpmarket.com/sell/list-4-104015000-0-%d.html',
-  //''=>'http://www.corpmarket.com/sell/list-4-104016000-0-%d.html',    
-  //''=>'http://www.corpmarket.com/sell/list-4-104017000-0-%d.html',
-  //''=>'http://www.corpmarket.com/sell/list-4-104018000-0-%d.html', 
-    
 );
 
 /*

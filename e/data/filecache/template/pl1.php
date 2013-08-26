@@ -33,13 +33,13 @@ h2 { color: #1e3a9e; font-size: 25px; font-weight: bold;  }
 .ecommenttext {clear:left;margin:0;padding:0;}
 -->
 </style>
-<script src="http://test.ad.com/e/data/js/ajax.js"></script>
+<script src="http://test.b2b.com/e/data/js/ajax.js"></script>
 </head>
 
 <body topmargin="0">
 <table width="766" border="0" align="center" cellpadding="3" cellspacing="1">
   <tr>
-    <td width="210"><a href="http://test.ad.com/"><img src="http://test.ad.com/skin/default/images/logo.gif" border="0" /></a></td>
+    <td width="210"><a href="http://test.b2b.com/"><img src="http://test.b2b.com/skin/default/images/logo.gif" border="0" /></a></td>
     <td><h1>网友评论</h1></td>
     <td><div align="right"><a href="#tosaypl"><strong><font color="#FF0000">我也评两句</font></strong></a></div></td>
   </tr>
@@ -131,7 +131,7 @@ while($r=$empire->fetch($sql))
       </table>
       <table width="100%" border="0" cellspacing="1" cellpadding="3">
         <tr>
-          <td background="http://test.ad.com/skin/default/images/plhrbg.gif"></td>
+          <td background="http://test.b2b.com/skin/default/images/plhrbg.gif"></td>
         </tr>
       </table>
       
@@ -167,7 +167,7 @@ while($r=$empire->fetch($sql))
             <input name="password" type="password" id="password" size="12" value="<?=$lpassword?>" />
             验证码： 
             <input name="key" type="text" id="key" size="6" />
-              <img src="http://test.ad.com/e/ShowKey/?v=pl" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://test.ad.com/e/member/register/" target="_blank">还没有注册？</a></td>
+              <img src="http://test.b2b.com/e/ShowKey/?v=pl" align="middle" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://test.b2b.com/e/member/register/" target="_blank">还没有注册？</a></td>
         </tr>
       </table></td>
   </tr>
@@ -186,7 +186,7 @@ while($r=$empire->fetch($sql))
         </tr>
         <tr> 
           <td><div align="center"> 
-              <script src="http://test.ad.com/d/js/js/plface.js"></script>
+              <script src="http://test.b2b.com/d/js/js/plface.js"></script>
             </div></td>
         </tr>
       </table> </td>

@@ -1,5 +1,5 @@
 <?php
-require_once('../config.php');
+require_once('config.php');
 //设置变量
 define('S_PWD', dirname(__FILE__)); //使用crawler_lib必须定义该变量
 $scriptname = basename($argv[0]);

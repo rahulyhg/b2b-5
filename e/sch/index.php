@@ -74,8 +74,8 @@ $url="<a href='".ReturnSiteIndexUrl()."'>".$fun_r['index']."</a>&nbsp;>&nbsp;".$
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>搜索 - Powered by EmpireCMS</title>
-<link href="http://test.ad.com/skin/default/css/style.css" rel="stylesheet" type="text/css" />
-<script type="text/javascript" src="http://test.ad.com/skin/default/js/tabs.js"></script>
+<link href="http://test.b2b.com/skin/default/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://test.b2b.com/skin/default/js/tabs.js"></script>
 <style type="text/css">
 <!--
 .r {
@@ -99,11 +99,11 @@ margin-top:10px;
 <td width="63%">
 <!-- 登录 -->
 <script>
-document.write('<script src="http://test.ad.com/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
+document.write('<script src="http://test.b2b.com/e/member/login/loginjs.php?t='+Math.random()+'"><'+'/script>');
 </script>
 </td>
 <td align="right">
-<a onclick="window.external.addFavorite(location.href,document.title)" href="#ecms">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://test.ad.com/')" href="#ecms">设为首页</a> | <a href="http://test.ad.com/e/member/cp/">会员中心</a> | <a href="http://test.ad.com/e/DoInfo/">我要投稿</a> | <a href="http://test.ad.com/e/web/?type=rss2" target="_blank">RSS<img src="http://test.ad.com/skin/default/images/rss.gif" border="0" hspace="2" /></a>
+<a onclick="window.external.addFavorite(location.href,document.title)" href="#ecms">加入收藏</a> | <a onclick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://test.b2b.com/')" href="#ecms">设为首页</a> | <a href="http://test.b2b.com/e/member/cp/">会员中心</a> | <a href="http://test.b2b.com/e/DoInfo/">我要投稿</a> | <a href="http://test.b2b.com/e/web/?type=rss2" target="_blank">RSS<img src="http://test.b2b.com/skin/default/images/rss.gif" border="0" hspace="2" /></a>
 </td>
 </tr>
 </table></td>
@@ -111,23 +111,23 @@ document.write('<script src="http://test.ad.com/e/member/login/loginjs.php?t='+M
 </table>
 <table width="100%" border="0" cellpadding="0" cellspacing="10">
 <tr valign="middle">
-<td width="240" align="center"><a href="http://test.ad.com/"><img src="http://test.ad.com/skin/default/images/logo.gif" width="200" height="65" border="0" /></a></td>
-<td align="center"><a href="http://www.phome.net/OpenSource/" target="_blank"><img src="http://test.ad.com/skin/default/images/opensource.gif" width="100%" height="70" border="0" /></a></td>
+<td width="240" align="center"><a href="http://test.b2b.com/"><img src="http://test.b2b.com/skin/default/images/logo.gif" width="200" height="65" border="0" /></a></td>
+<td align="center"><a href="http://www.phome.net/OpenSource/" target="_blank"><img src="http://test.b2b.com/skin/default/images/opensource.gif" width="100%" height="70" border="0" /></a></td>
 </tr>
 </table>
 <!-- 导航tab选项卡 -->
 <table width="920" border="0" align="center" cellpadding="0" cellspacing="0" class="nav">
   <tr> 
     <td class="nav_global"><ul>
-        <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="http://test.ad.com/">首页</a></li>
-        <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="http://test.ad.com/news/">新闻中心</a></li>
-        <li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="http://test.ad.com/download/">下载中心</a></li>
-        <li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="http://test.ad.com/movie/">影视频道</a></li>
-        <li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="http://test.ad.com/shop/">网上商城</a></li>
-        <li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="http://test.ad.com/flash/">FLASH频道</a></li>
-        <li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="http://test.ad.com/photo/">图片频道</a></li>
-        <li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="http://test.ad.com/article/">文章中心</a></li>
-        <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="http://test.ad.com/info/">分类信息</a></li>
+        <li class="curr" id="tabnav_btn_0" onmouseover="tabit(this)"><a href="http://test.b2b.com/">首页</a></li>
+        <li id="tabnav_btn_1" onmouseover="tabit(this)"><a href="http://test.b2b.com/news/">新闻中心</a></li>
+        <li id="tabnav_btn_2" onmouseover="tabit(this)"><a href="http://test.b2b.com/download/">下载中心</a></li>
+        <li id="tabnav_btn_3" onmouseover="tabit(this)"><a href="http://test.b2b.com/movie/">影视频道</a></li>
+        <li id="tabnav_btn_4" onmouseover="tabit(this)"><a href="http://test.b2b.com/shop/">网上商城</a></li>
+        <li id="tabnav_btn_5" onmouseover="tabit(this)"><a href="http://test.b2b.com/flash/">FLASH频道</a></li>
+        <li id="tabnav_btn_6" onmouseover="tabit(this)"><a href="http://test.b2b.com/photo/">图片频道</a></li>
+        <li id="tabnav_btn_7" onmouseover="tabit(this)"><a href="http://test.b2b.com/article/">文章中心</a></li>
+        <li id="tabnav_btn_8" onmouseover="tabit(this)"><a href="http://test.b2b.com/info/">分类信息</a></li>
       </ul></td>
   </tr>
 </table>
@@ -135,7 +135,7 @@ document.write('<script src="http://test.ad.com/e/member/login/loginjs.php?t='+M
 	<tr valign="top">
 		<td class="list_content"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="position">
 				<tr>
-					<td>现在的位置：<a href="http://test.ad.com/">首页</a>&nbsp;>&nbsp;搜索</td>
+					<td>现在的位置：<a href="http://test.b2b.com/">首页</a>&nbsp;>&nbsp;搜索</td>
 				</tr>
 			</table>
 			<table width="100%" border="0" cellspacing="0" cellpadding="0" class="box">

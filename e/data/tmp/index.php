@@ -10,7 +10,7 @@ if(!defined('InEmpireCMS'))
 <meta name="keywords" content="wholesale, wholesalers, wholesale china, wholesale products,Manufacturer,Suppliers,Exporters" />
 <meta name="description" content="BJshibang is a global free online B2B marketplace. We have quality Manufacturers, Suppliers, Exporters, Importers, Buyers, Wholesalers, Products and Trade Leads." />
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="http://test.ad.com/css/home.css">
+        <link rel="stylesheet" type="text/css" href="http://test.b2b.com/css/home.css">
     </head>
     <body>
      <div class="page-inner">
@@ -19,14 +19,14 @@ if(!defined('InEmpireCMS'))
             <div class="top-nav-l">
                 <ul id="topNavL" class="clearfix">
                     <li class="tnl-wel">Welcome to BJshibang!</li>
-                    <li class="tnl-joinFree"><a href="http://test.ad.com/e/member/register">Join Free</a></li>
+                    <li class="tnl-joinFree"><a href="http://test.b2b.com/e/member/register">Join Free</a></li>
                     <li class="tn-split"></li>
-                    <li><a href="http://test.ad.com/e/member/login/">Sign in</a></li>
+                    <li><a href="http://test.b2b.com/e/member/login/">Sign in</a></li>
                 </ul>
             </div>
             <div class="top-nav-r">
                 <ul id="topNavR_EN" class="clearfix">
-                    <li><a href="http://test.ad.com/e/member/my/">My BJshibang</a></li>
+                    <li><a href="http://test.b2b.com/e/member/my/">My BJshibang</a></li>
                     <li class="tn-split"></li>
                     <li class="tn-help"><a href="#">Help</a></li>
                     <li class="tn-split"></li>
@@ -37,9 +37,9 @@ if(!defined('InEmpireCMS'))
         </div>
 
         <div class="header">
-            <div class="logo"><a href="http://test.ad.com/">BJshibang Wholesale Homepage</a></div>
+            <div class="logo"><a href="http://test.b2b.com/">BJshibang Wholesale Homepage</a></div>
             <div class="ftm-tit">Fast Trading Marketplace</div>
-            <form id="searchForm" action="http://test.ad.com/e/search/" autocomplete="off" method="post" name="searchForm">
+            <form id="searchForm" action="http://test.b2b.com/e/search/" autocomplete="off" method="post" name="searchForm">
             <input type="hidden" name="show" value="title" />
             <input type="hidden" name="tempid" value="1" />
                 <div class="search-bar-autocomplete">
@@ -61,16 +61,16 @@ if(!defined('InEmpireCMS'))
         <div class="main-entrance">
             <div class="main-entrance-lp">
                 <ul>
-                    <li class="goldli"><a href="http://test.ad.com/" title=""><span class="g">H</span><span>omePage</span></a></li>
+                    <li class="goldli"><a href="http://test.b2b.com/" title=""><span class="g">H</span><span>omePage</span></a></li>
                     <li class="main-entrance-split"></li>
-                    <li class=""><a href="http://test.ad.com/category/">Product</a></li>
+                    <li class=""><a href="http://test.b2b.com/category/">Product</a></li>
                     <li class="main-entrance-split"></li>
-                    <li class=""><a href="http://test.ad.com/">Buying leads</a></li>
+                    <li class=""><a href="http://test.b2b.com/">Buying leads</a></li>
                     <li class="main-entrance-split"></li>
-                    <li class=""><a href="http://test.ad.com/e/company/">Companies</a></li>
+                    <li class=""><a href="http://test.b2b.com/e/company/">Companies</a></li>
                 </ul>
             </div>
-            <div class="main-entrance-categories"><a href="http://test.ad.com/category/">ALL CATEGORIES</a></div>
+            <div class="main-entrance-categories"><a href="http://test.b2b.com/category/">ALL CATEGORIES</a></div>
             <!--<div class="main-entrance-protection"><a href="#">Buyer Protection PLUS</a></div>-->
         </div>
     </div>
@@ -80,7 +80,7 @@ if(!defined('InEmpireCMS'))
             	<div id="mainConvertWarp">
 
                     <div id="mainConvert" class="main-convert">
-                        <img src="http://test.ad.com/images/XmasStore.jpg" width="790" height="185">
+                        <img src="http://test.b2b.com/images/XmasStore.jpg" width="790" height="185">
                     </div>
 
                     <div id="mainConvertNav" class="main-convert-nav">
@@ -131,7 +131,7 @@ $bqno++;
 ?>
                         <li>
                             <div class="fs-imgContainer"><a href="<?=$bqsr[titleurl]?>"><img src="<?=$bqr[titlepic]?>" width="120" height="120"></a></div>
-                            <div class="fs-na">Seller: <a target="_blank"  href="http://test.ad.com/sp/<?=$bqr[userid]?>.html"><?=$bqr[username]?></a></div>
+                            <div class="fs-na">Seller: <a target="_blank"  href="http://test.b2b.com/sp/<?=$bqr[userid]?>.html"><?=$bqr[username]?></a></div>
                             <div class="fs-des"><?=$bqr[title]?></div>
                         </li>
 <?php
@@ -147,7 +147,7 @@ $bqno++;
                 <div id="navCatsWarp" class="nav_cats_warp">
                     <ul id="navCats" class="nav_cats">
                         <? @sys_ShowClassByTemp(1,1,0,21);?>
-                        <li class="nav_cat_last"><a href="http://test.ad.com/news/">More Categories</a></li>
+                        <li class="nav_cat_last"><a href="http://test.b2b.com/news/">More Categories</a></li>
                     </ul>
                 </div>
         </div>
@@ -203,12 +203,12 @@ $bqno++;
     </div>
     <div style="border-bottom: 1px solid #cecece; margin: 5px auto"></div>
 	<div class="f-feedback">Help improve your experience on BJshibang.com</div>
-    <div class="f-entrance"><a href="http://test.ad.com/">Security &amp; Privacy</a> | <a href="http://test.ad.com/">Help</a> | <a href="http://test.ad.com/">About Us</a> |  <a href="http://test.ad.com/">Sitemap</a></div>
+    <div class="f-entrance"><a href="http://test.b2b.com/">Security &amp; Privacy</a> | <a href="http://test.b2b.com/">Help</a> | <a href="http://test.b2b.com/">About Us</a> |  <a href="http://test.b2b.com/">Sitemap</a></div>
     <div class="f-copyright">Copyright Notice © 2010 - 2013 BJshibang.com  All rights reserved.</div>
 </div>
-<script src="http://test.ad.com/js/head.min.js" charset="utf-8"></script>
-<script src="http://test.ad.com/js/jquery.js" charset="utf-8"></script>
-<script type="text/javascript" src="http://test.ad.com/js/jquery.lazyload.min.js?v=1352884587176"></script>
+<script src="http://test.b2b.com/js/head.min.js" charset="utf-8"></script>
+<script src="http://test.b2b.com/js/jquery.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://test.b2b.com/js/jquery.lazyload.min.js?v=1352884587176"></script>
  <script type="text/javascript" charset="utf-8">
        $(document).ready(function(){
           $("img").lazyload();
