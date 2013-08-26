@@ -21,7 +21,7 @@ require(ECMS_PATH.'e/template/incfile/header.php');
         Dmsg('Dose not support Chinese!', 'title');
         return false;
     }
-    if(l < 5 || l > 30)
+    if(l < 5 || l > 120)
     {
         Dmsg('Please enter a value between 5 and 120 characters long', 'title');
         return false;
@@ -150,6 +150,7 @@ function previewImage(f,k,c,l){var e=c?c:300;var d=l?l:300;var b=document.getEle
 <input name='phone' type=hidden value=<?=$memberinfor['phone']?>>
 <input name='fax' type=hidden  value=<?=$memberinfor['fax']?>>
 <input name='countrycode' type=hidden  value=<?=$memberinfor['countrycode']?>>
+<input name='country' type=hidden  value=<?=$memberinfor['country']?>>
 <style>
 .tr input {
 height: 20px;

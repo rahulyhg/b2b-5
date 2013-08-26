@@ -63,7 +63,228 @@ if(!defined('InEmpireCMS'))
 </tr>
 <tr>
 <td class="tl"><span class="f_red">*</span>Country</td>
-<td class="tr"><select name="country" id="country"><option value="Afghanistan"<?=$addr[country]=="Afghanistan"?' selected':''?>>Afghanistan</option><option value="Albania"<?=$addr[country]=="Albania"?' selected':''?>>Albania</option><option value="Algeria"<?=$addr[country]=="Algeria"?' selected':''?>>Algeria</option><option value="Andorra"<?=$addr[country]=="Andorra"?' selected':''?>>Andorra</option><option value="Angola"<?=$addr[country]=="Angola"?' selected':''?>>Angola</option><option value="Anguilla"<?=$addr[country]=="Anguilla"?' selected':''?>>Anguilla</option><option value="Antigua &amp; Barbuda"<?=$addr[country]=="Antigua &amp; Barbuda"?' selected':''?>>Antigua &amp; Barbuda</option><option value="Argentina"<?=$addr[country]=="Argentina"?' selected':''?>>Argentina</option><option value="Armenia"<?=$addr[country]=="Armenia"?' selected':''?>>Armenia</option><option value="Australia"<?=$addr[country]=="Australia"?' selected':''?>>Australia</option><option value="Austria"<?=$addr[country]=="Austria"?' selected':''?>>Austria</option><option value="Azerbaijan"<?=$addr[country]=="Azerbaijan"?' selected':''?>>Azerbaijan</option><option value="Bahamas"<?=$addr[country]=="Bahamas"?' selected':''?>>Bahamas</option><option value="Bahrain"<?=$addr[country]=="Bahrain"?' selected':''?>>Bahrain</option><option value="Bangladesh"<?=$addr[country]=="Bangladesh"?' selected':''?>>Bangladesh</option><option value="Barbados"<?=$addr[country]=="Barbados"?' selected':''?>>Barbados</option><option value="Belarus"<?=$addr[country]=="Belarus"?' selected':''?>>Belarus</option><option value="Belgium"<?=$addr[country]=="Belgium"?' selected':''?>>Belgium</option><option value="Belize"<?=$addr[country]=="Belize"?' selected':''?>>Belize</option><option value="Benin"<?=$addr[country]=="Benin"?' selected':''?>>Benin</option><option value="Bermuda"<?=$addr[country]=="Bermuda"?' selected':''?>>Bermuda</option><option value="Bhutan"<?=$addr[country]=="Bhutan"?' selected':''?>>Bhutan</option><option value="Bolivia"<?=$addr[country]=="Bolivia"?' selected':''?>>Bolivia</option><option value="Bosnia and Herzegovina"<?=$addr[country]=="Bosnia and Herzegovina"?' selected':''?>>Bosnia and Herzegovina</option><option value="Botswana"<?=$addr[country]=="Botswana"?' selected':''?>>Botswana</option><option value="Brazil"<?=$addr[country]=="Brazil"?' selected':''?>>Brazil</option><option value="Brunei"<?=$addr[country]=="Brunei"?' selected':''?>>Brunei</option><option value="Bulgaria"<?=$addr[country]=="Bulgaria"?' selected':''?>>Bulgaria</option><option value="Burkina Faso"<?=$addr[country]=="Burkina Faso"?' selected':''?>>Burkina Faso</option><option value="Burundi"<?=$addr[country]=="Burundi"?' selected':''?>>Burundi</option><option value="Cambodia"<?=$addr[country]=="Cambodia"?' selected':''?>>Cambodia</option><option value="Cameroon"<?=$addr[country]=="Cameroon"?' selected':''?>>Cameroon</option><option value="Canada"<?=$addr[country]=="Canada"?' selected':''?>>Canada</option><option value="Cape Verde"<?=$addr[country]=="Cape Verde"?' selected':''?>>Cape Verde</option><option value="Cayman Islands"<?=$addr[country]=="Cayman Islands"?' selected':''?>>Cayman Islands</option><option value="Central African Republic"<?=$addr[country]=="Central African Republic"?' selected':''?>>Central African Republic</option><option value="Chad"<?=$addr[country]=="Chad"?' selected':''?>>Chad</option><option value="Chile"<?=$addr[country]=="Chile"?' selected':''?>>Chile</option><option value="China"<?=$addr[country]=="China"||$ecmsfirstpost==1?' selected':''?>>China</option><option value="Colombia"<?=$addr[country]=="Colombia"?' selected':''?>>Colombia</option><option value="Comoros"<?=$addr[country]=="Comoros"?' selected':''?>>Comoros</option><option value="Congo"<?=$addr[country]=="Congo"?' selected':''?>>Congo</option><option value="Congo (DRC)"<?=$addr[country]=="Congo (DRC)"?' selected':''?>>Congo (DRC)</option><option value="Cook Islands"<?=$addr[country]=="Cook Islands"?' selected':''?>>Cook Islands</option><option value="Costa Rica"<?=$addr[country]=="Costa Rica"?' selected':''?>>Costa Rica</option><option value="Cote d'Ivoire"<?=$addr[country]=="Cote d'Ivoire"?' selected':''?>>Cote d'Ivoire</option><option value="Croatia (Hrvatska)"<?=$addr[country]=="Croatia (Hrvatska)"?' selected':''?>>Croatia (Hrvatska)</option><option value="Cuba"<?=$addr[country]=="Cuba"?' selected':''?>>Cuba</option><option value="Cyprus"<?=$addr[country]=="Cyprus"?' selected':''?>>Cyprus</option><option value="Czech Republic"<?=$addr[country]=="Czech Republic"?' selected':''?>>Czech Republic</option><option value="Denmark"<?=$addr[country]=="Denmark"?' selected':''?>>Denmark</option><option value="Djibouti"<?=$addr[country]=="Djibouti"?' selected':''?>>Djibouti</option><option value="Dominica"<?=$addr[country]=="Dominica"?' selected':''?>>Dominica</option><option value="Dominican Republic"<?=$addr[country]=="Dominican Republic"?' selected':''?>>Dominican Republic</option><option value="East Timor"<?=$addr[country]=="East Timor"?' selected':''?>>East Timor</option><option value="Ecuador"<?=$addr[country]=="Ecuador"?' selected':''?>>Ecuador</option><option value="Egypt"<?=$addr[country]=="Egypt"?' selected':''?>>Egypt</option><option value="El Salvador"<?=$addr[country]=="El Salvador"?' selected':''?>>El Salvador</option><option value="Equatorial Guinea"<?=$addr[country]=="Equatorial Guinea"?' selected':''?>>Equatorial Guinea</option><option value="Eritrea"<?=$addr[country]=="Eritrea"?' selected':''?>>Eritrea</option><option value="Estonia"<?=$addr[country]=="Estonia"?' selected':''?>>Estonia</option><option value="Ethiopia"<?=$addr[country]=="Ethiopia"?' selected':''?>>Ethiopia</option><option value="Falkland Islands"<?=$addr[country]=="Falkland Islands"?' selected':''?>>Falkland Islands</option><option value="Faroe Islands"<?=$addr[country]=="Faroe Islands"?' selected':''?>>Faroe Islands</option><option value="Fiji Islands"<?=$addr[country]=="Fiji Islands"?' selected':''?>>Fiji Islands</option><option value="Finland"<?=$addr[country]=="Finland"?' selected':''?>>Finland</option><option value="France"<?=$addr[country]=="France"?' selected':''?>>France</option><option value="French Guiana"<?=$addr[country]=="French Guiana"?' selected':''?>>French Guiana</option><option value="French Polynesia"<?=$addr[country]=="French Polynesia"?' selected':''?>>French Polynesia</option><option value="Gabon"<?=$addr[country]=="Gabon"?' selected':''?>>Gabon</option><option value="Gambia"<?=$addr[country]=="Gambia"?' selected':''?>>Gambia</option><option value="Georgia"<?=$addr[country]=="Georgia"?' selected':''?>>Georgia</option><option value="Germany"<?=$addr[country]=="Germany"?' selected':''?>>Germany</option><option value="Ghana"<?=$addr[country]=="Ghana"?' selected':''?>>Ghana</option><option value="Gibraltar"<?=$addr[country]=="Gibraltar"?' selected':''?>>Gibraltar</option><option value="Greece"<?=$addr[country]=="Greece"?' selected':''?>>Greece</option><option value="Greenland"<?=$addr[country]=="Greenland"?' selected':''?>>Greenland</option><option value="Grenada"<?=$addr[country]=="Grenada"?' selected':''?>>Grenada</option><option value="Guadeloupe"<?=$addr[country]=="Guadeloupe"?' selected':''?>>Guadeloupe</option><option value="Guam"<?=$addr[country]=="Guam"?' selected':''?>>Guam</option><option value="Guatemala"<?=$addr[country]=="Guatemala"?' selected':''?>>Guatemala</option><option value="Guinea"<?=$addr[country]=="Guinea"?' selected':''?>>Guinea</option><option value="Guinea-Bissau"<?=$addr[country]=="Guinea-Bissau"?' selected':''?>>Guinea-Bissau</option><option value="Guyana"<?=$addr[country]=="Guyana"?' selected':''?>>Guyana</option><option value="Haiti"<?=$addr[country]=="Haiti"?' selected':''?>>Haiti</option><option value="Honduras"<?=$addr[country]=="Honduras"?' selected':''?>>Honduras</option><option value="Hong Kong SAR"<?=$addr[country]=="Hong Kong SAR"?' selected':''?>>Hong Kong SAR</option><option value="Hungary"<?=$addr[country]=="Hungary"?' selected':''?>>Hungary</option><option value="Iceland"<?=$addr[country]=="Iceland"?' selected':''?>>Iceland</option><option value="India"<?=$addr[country]=="India"?' selected':''?>>India</option><option value="Indonesia"<?=$addr[country]=="Indonesia"?' selected':''?>>Indonesia</option><option value="Iran"<?=$addr[country]=="Iran"?' selected':''?>>Iran</option><option value="Iraq"<?=$addr[country]=="Iraq"?' selected':''?>>Iraq</option><option value="Ireland"<?=$addr[country]=="Ireland"?' selected':''?>>Ireland</option><option value="Israel"<?=$addr[country]=="Israel"?' selected':''?>>Israel</option><option value="Italy"<?=$addr[country]=="Italy"?' selected':''?>>Italy</option><option value="Jamaica"<?=$addr[country]=="Jamaica"?' selected':''?>>Jamaica</option><option value="Japan"<?=$addr[country]=="Japan"?' selected':''?>>Japan</option><option value="Jordan"<?=$addr[country]=="Jordan"?' selected':''?>>Jordan</option><option value="Kazakhstan"<?=$addr[country]=="Kazakhstan"?' selected':''?>>Kazakhstan</option><option value="Kenya"<?=$addr[country]=="Kenya"?' selected':''?>>Kenya</option><option value="Kiribati"<?=$addr[country]=="Kiribati"?' selected':''?>>Kiribati</option><option value="Korea"<?=$addr[country]=="Korea"?' selected':''?>>Korea</option><option value="Kuwait"<?=$addr[country]=="Kuwait"?' selected':''?>>Kuwait</option><option value="Kyrgyzstan"<?=$addr[country]=="Kyrgyzstan"?' selected':''?>>Kyrgyzstan</option><option value="Laos"<?=$addr[country]=="Laos"?' selected':''?>>Laos</option><option value="Latvia"<?=$addr[country]=="Latvia"?' selected':''?>>Latvia</option><option value="Lebanon"<?=$addr[country]=="Lebanon"?' selected':''?>>Lebanon</option><option value="Lesotho"<?=$addr[country]=="Lesotho"?' selected':''?>>Lesotho</option><option value="Liberia"<?=$addr[country]=="Liberia"?' selected':''?>>Liberia</option><option value="Libya"<?=$addr[country]=="Libya"?' selected':''?>>Libya</option><option value="Liechtenstein"<?=$addr[country]=="Liechtenstein"?' selected':''?>>Liechtenstein</option><option value="Lithuania"<?=$addr[country]=="Lithuania"?' selected':''?>>Lithuania</option><option value="Luxembourg"<?=$addr[country]=="Luxembourg"?' selected':''?>>Luxembourg</option><option value="Macao SAR"<?=$addr[country]=="Macao SAR"?' selected':''?>>Macao SAR</option><option value="Macedonia"<?=$addr[country]=="Macedonia"?' selected':''?>>Macedonia</option><option value="Madagascar"<?=$addr[country]=="Madagascar"?' selected':''?>>Madagascar</option><option value="Malawi"<?=$addr[country]=="Malawi"?' selected':''?>>Malawi</option><option value="Malaysia"<?=$addr[country]=="Malaysia"?' selected':''?>>Malaysia</option><option value="Maldives"<?=$addr[country]=="Maldives"?' selected':''?>>Maldives</option><option value="Mali"<?=$addr[country]=="Mali"?' selected':''?>>Mali</option><option value="Malta"<?=$addr[country]=="Malta"?' selected':''?>>Malta</option><option value="Martinique"<?=$addr[country]=="Martinique"?' selected':''?>>Martinique</option><option value="Mauritania"<?=$addr[country]=="Mauritania"?' selected':''?>>Mauritania</option><option value="Mauritius"<?=$addr[country]=="Mauritius"?' selected':''?>>Mauritius</option><option value="Mayotte"<?=$addr[country]=="Mayotte"?' selected':''?>>Mayotte</option><option value="Mexico"<?=$addr[country]=="Mexico"?' selected':''?>>Mexico</option><option value="Micronesia"<?=$addr[country]=="Micronesia"?' selected':''?>>Micronesia</option><option value="Moldova"<?=$addr[country]=="Moldova"?' selected':''?>>Moldova</option><option value="Monaco"<?=$addr[country]=="Monaco"?' selected':''?>>Monaco</option><option value="Mongolia"<?=$addr[country]=="Mongolia"?' selected':''?>>Mongolia</option><option value="Montserrat"<?=$addr[country]=="Montserrat"?' selected':''?>>Montserrat</option><option value="Morocco"<?=$addr[country]=="Morocco"?' selected':''?>>Morocco</option><option value="Mozambique"<?=$addr[country]=="Mozambique"?' selected':''?>>Mozambique</option><option value="Myanmar"<?=$addr[country]=="Myanmar"?' selected':''?>>Myanmar</option><option value="Namibia"<?=$addr[country]=="Namibia"?' selected':''?>>Namibia</option><option value="Nauru"<?=$addr[country]=="Nauru"?' selected':''?>>Nauru</option><option value="Nepal"<?=$addr[country]=="Nepal"?' selected':''?>>Nepal</option><option value="Netherlands"<?=$addr[country]=="Netherlands"?' selected':''?>>Netherlands</option><option value="Netherlands Antilles"<?=$addr[country]=="Netherlands Antilles"?' selected':''?>>Netherlands Antilles</option><option value="New Caledonia"<?=$addr[country]=="New Caledonia"?' selected':''?>>New Caledonia</option><option value="New Zealand"<?=$addr[country]=="New Zealand"?' selected':''?>>New Zealand</option><option value="Nicaragua"<?=$addr[country]=="Nicaragua"?' selected':''?>>Nicaragua</option><option value="Niger"<?=$addr[country]=="Niger"?' selected':''?>>Niger</option><option value="Nigeria"<?=$addr[country]=="Nigeria"?' selected':''?>>Nigeria</option><option value="Niue"<?=$addr[country]=="Niue"?' selected':''?>>Niue</option><option value="Norfolk Island"<?=$addr[country]=="Norfolk Island"?' selected':''?>>Norfolk Island</option><option value="North Korea"<?=$addr[country]=="North Korea"?' selected':''?>>North Korea</option><option value="Norway"<?=$addr[country]=="Norway"?' selected':''?>>Norway</option><option value="Oman"<?=$addr[country]=="Oman"?' selected':''?>>Oman</option><option value="Pakistan"<?=$addr[country]=="Pakistan"?' selected':''?>>Pakistan</option><option value="Panama"<?=$addr[country]=="Panama"?' selected':''?>>Panama</option><option value="Papua New Guinea"<?=$addr[country]=="Papua New Guinea"?' selected':''?>>Papua New Guinea</option><option value="Paraguay"<?=$addr[country]=="Paraguay"?' selected':''?>>Paraguay</option><option value="Peru"<?=$addr[country]=="Peru"?' selected':''?>>Peru</option><option value="Philippines"<?=$addr[country]=="Philippines"?' selected':''?>>Philippines</option><option value="Pitcairn Islands"<?=$addr[country]=="Pitcairn Islands"?' selected':''?>>Pitcairn Islands</option><option value="Poland"<?=$addr[country]=="Poland"?' selected':''?>>Poland</option><option value="Portugal"<?=$addr[country]=="Portugal"?' selected':''?>>Portugal</option><option value="Puerto Rico"<?=$addr[country]=="Puerto Rico"?' selected':''?>>Puerto Rico</option><option value="Qatar"<?=$addr[country]=="Qatar"?' selected':''?>>Qatar</option><option value="Reunion"<?=$addr[country]=="Reunion"?' selected':''?>>Reunion</option><option value="Romania"<?=$addr[country]=="Romania"?' selected':''?>>Romania</option><option value="Russia"<?=$addr[country]=="Russia"?' selected':''?>>Russia</option><option value="Rwanda"<?=$addr[country]=="Rwanda"?' selected':''?>>Rwanda</option><option value="Samoa"<?=$addr[country]=="Samoa"?' selected':''?>>Samoa</option><option value="San Marino"<?=$addr[country]=="San Marino"?' selected':''?>>San Marino</option><option value="Sao Tome and Principe"<?=$addr[country]=="Sao Tome and Principe"?' selected':''?>>Sao Tome and Principe</option><option value="Saudi Arabia"<?=$addr[country]=="Saudi Arabia"?' selected':''?>>Saudi Arabia</option><option value="Senegal"<?=$addr[country]=="Senegal"?' selected':''?>>Senegal</option><option value="Serbia and Montenegro"<?=$addr[country]=="Serbia and Montenegro"?' selected':''?>>Serbia and Montenegro</option><option value="Seychelles"<?=$addr[country]=="Seychelles"?' selected':''?>>Seychelles</option><option value="Sierra Leone"<?=$addr[country]=="Sierra Leone"?' selected':''?>>Sierra Leone</option><option value="Singapore"<?=$addr[country]=="Singapore"?' selected':''?>>Singapore</option><option value="Slovakia"<?=$addr[country]=="Slovakia"?' selected':''?>>Slovakia</option><option value="Slovenia"<?=$addr[country]=="Slovenia"?' selected':''?>>Slovenia</option><option value="Solomon Islands"<?=$addr[country]=="Solomon Islands"?' selected':''?>>Solomon Islands</option><option value="Somalia"<?=$addr[country]=="Somalia"?' selected':''?>>Somalia</option><option value="South Africa"<?=$addr[country]=="South Africa"?' selected':''?>>South Africa</option><option value="Spain"<?=$addr[country]=="Spain"?' selected':''?>>Spain</option><option value="Sri Lanka"<?=$addr[country]=="Sri Lanka"?' selected':''?>>Sri Lanka</option><option value="St. Helena"<?=$addr[country]=="St. Helena"?' selected':''?>>St. Helena</option><option value="St. Kitts and Nevis"<?=$addr[country]=="St. Kitts and Nevis"?' selected':''?>>St. Kitts and Nevis</option><option value="St. Pierre and Miquelon"<?=$addr[country]=="St. Pierre and Miquelon"?' selected':''?>>St. Pierre and Miquelon</option><option value="Sudan"<?=$addr[country]=="Sudan"?' selected':''?>>Sudan</option><option value="Suriname"<?=$addr[country]=="Suriname"?' selected':''?>>Suriname</option><option value="Swaziland"<?=$addr[country]=="Swaziland"?' selected':''?>>Swaziland</option><option value="Sweden"<?=$addr[country]=="Sweden"?' selected':''?>>Sweden</option><option value="Switzerland"<?=$addr[country]=="Switzerland"?' selected':''?>>Switzerland</option><option value="Syria"<?=$addr[country]=="Syria"?' selected':''?>>Syria</option><option value="Taiwan"<?=$addr[country]=="Taiwan"?' selected':''?>>Taiwan</option><option value="Tajikistan"<?=$addr[country]=="Tajikistan"?' selected':''?>>Tajikistan</option><option value="Tanzania"<?=$addr[country]=="Tanzania"?' selected':''?>>Tanzania</option><option value="Thailand"<?=$addr[country]=="Thailand"?' selected':''?>>Thailand</option><option value="Togo"<?=$addr[country]=="Togo"?' selected':''?>>Togo</option><option value="Tokelau"<?=$addr[country]=="Tokelau"?' selected':''?>>Tokelau</option><option value="Tonga"<?=$addr[country]=="Tonga"?' selected':''?>>Tonga</option><option value="Trinidad and Tobago"<?=$addr[country]=="Trinidad and Tobago"?' selected':''?>>Trinidad and Tobago</option><option value="Tunisia"<?=$addr[country]=="Tunisia"?' selected':''?>>Tunisia</option><option value="Turkey"<?=$addr[country]=="Turkey"?' selected':''?>>Turkey</option><option value="Turkmenistan"<?=$addr[country]=="Turkmenistan"?' selected':''?>>Turkmenistan</option><option value="Turks and Caicos Islands"<?=$addr[country]=="Turks and Caicos Islands"?' selected':''?>>Turks and Caicos Islands</option><option value="Tuvalu"<?=$addr[country]=="Tuvalu"?' selected':''?>>Tuvalu</option><option value="Uganda"<?=$addr[country]=="Uganda"?' selected':''?>>Uganda</option><option value="Ukraine"<?=$addr[country]=="Ukraine"?' selected':''?>>Ukraine</option><option value="United Arab Emirates"<?=$addr[country]=="United Arab Emirates"?' selected':''?>>United Arab Emirates</option><option value="United Kingdom"<?=$addr[country]=="United Kingdom"?' selected':''?>>United Kingdom</option><option value="Uruguay"<?=$addr[country]=="Uruguay"?' selected':''?>>Uruguay</option><option value="USA"<?=$addr[country]=="USA"?' selected':''?>>USA</option><option value="Uzbekistan"<?=$addr[country]=="Uzbekistan"?' selected':''?>>Uzbekistan</option><option value="Vanuatu"<?=$addr[country]=="Vanuatu"?' selected':''?>>Vanuatu</option><option value="Venezuela"<?=$addr[country]=="Venezuela"?' selected':''?>>Venezuela</option><option value="Vietnam"<?=$addr[country]=="Vietnam"?' selected':''?>>Vietnam</option><option value="Virgin Islands"<?=$addr[country]=="Virgin Islands"?' selected':''?>>Virgin Islands</option><option value="Virgin Islands (British)"<?=$addr[country]=="Virgin Islands (British)"?' selected':''?>>Virgin Islands (British)</option><option value="Wallis and Futuna"<?=$addr[country]=="Wallis and Futuna"?' selected':''?>>Wallis and Futuna</option><option value="Yemen"<?=$addr[country]=="Yemen"?' selected':''?>>Yemen</option><option value="Yugoslavia"<?=$addr[country]=="Yugoslavia"?' selected':''?>>Yugoslavia</option><option value="Zambia"<?=$addr[country]=="Zambia"?' selected':''?>>Zambia</option><option value="Zimbabwe"<?=$addr[country]=="Zimbabwe"?' selected':''?>>Zimbabwe</option></select><span id="dcountry" class="f_red"></span></td>
+<td class="tr"><select name="country" onchange="countryChange(this);"  id="country">
+<option countrycode="af" value="Albania"<?="Afghanistan"?' selected':''?>>Afghanistan</option>
+<option countrycode="al" value="Albania"<?="Albania"?' selected':''?>>Albania</option>
+<option countrycode="dz" value="Albania"<?="Algeria"?' selected':''?>>Algeria</option>
+<option countrycode="ad" value="Albania"<?="Andorra"?' selected':''?>>Andorra</option>
+<option countrycode="ao" value="Albania"<?="Angola"?' selected':''?>>Angola</option>
+<option countrycode="ai" value="Albania"<?="Anguilla"?' selected':''?>>Anguilla</option>
+<option countrycode="af" value="Albania"<?="Antigua & Barbuda"?' selected':''?>>Antigua & Barbuda</option>
+<option countrycode="ar" value="Albania"<?="Argentina"?' selected':''?>>Argentina</option>
+<option countrycode="am" value="Albania"<?="Armenia"?' selected':''?>>Armenia</option>
+<option countrycode="au" value="Albania"<?="Australia"?' selected':''?>>Australia</option>
+<option countrycode="at" value="Albania"<?="Austria"?' selected':''?>>Austria</option>
+<option countrycode="az" value="Albania"<?="Azerbaijan"?' selected':''?>>Azerbaijan</option>
+<option countrycode="bs" value="Albania"<?="Bahamas"?' selected':''?>>Bahamas</option>
+<option countrycode="bh" value="Albania"<?="Bahrain"?' selected':''?>>Bahrain</option>
+<option countrycode="bd" value="Albania"<?="Bangladesh"?' selected':''?>>Bangladesh</option>
+<option countrycode="bb" value="Albania"<?="Barbados"?' selected':''?>>Barbados</option>
+<option countrycode="by" value="Albania"<?="Belarus"?' selected':''?>>Belarus</option>
+<option countrycode="be" value="Albania"<?="Belgium"?' selected':''?>>Belgium</option>
+<option countrycode="bz" value="Albania"<?="Belize"?' selected':''?>>Belize</option>
+<option countrycode="bj" value="Albania"<?="Benin"?' selected':''?>>Benin</option>
+<option countrycode="bm" value="Albania"<?="Bermuda"?' selected':''?>>Bermuda</option>
+<option countrycode="bt" value="Albania"<?="Bhutan"?' selected':''?>>Bhutan</option>
+<option countrycode="bo" value="Albania"<?="Bolivia"?' selected':''?>>Bolivia</option>
+<option countrycode="ba" value="Albania"<?="Bosnia and Herzegovina"?' selected':''?>>Bosnia and Herzegovina</option>
+<option countrycode="bw" value="Albania"<?="Botswana"?' selected':''?>>Botswana</option>
+<option countrycode="br" value="Albania"<?="Brazil"?' selected':''?>>Brazil</option>
+<option countrycode="bn" value="Albania"<?="Brunei"?' selected':''?>>Brunei</option>
+<option countrycode="bg" value="Albania"<?="Bulgaria"?' selected':''?>>Bulgaria</option>
+<option countrycode="bf" value="Albania"<?="Burkina Faso"?' selected':''?>>Burkina Faso</option>
+<option countrycode="bi" value="Albania"<?="Burundi"?' selected':''?>>Burundi</option>
+<option countrycode="kh" value="Albania"<?="Cambodia"?' selected':''?>>Cambodia</option>
+<option countrycode="cm" value="Albania"<?="Cameroon"?' selected':''?>>Cameroon</option>
+<option countrycode="ca" value="Albania"<?="Canada"?' selected':''?>>Canada</option>
+<option countrycode="cv" value="Albania"<?="Cape Verde"?' selected':''?>>Cape Verde</option>
+<option countrycode="ky" value="Albania"<?="Cayman Islands"?' selected':''?>>Cayman Islands</option>
+<option countrycode="cf" value="Albania"<?="Central African Republic"?' selected':''?>>Central African Republic</option>
+<option countrycode="cd" value="Albania"<?="Chad"?' selected':''?>>Chad</option>
+<option countrycode="cl" value="Albania"<?="Chile"?' selected':''?>>Chile</option>
+<option countrycode="cn" value="Albania"<?="China"?' selected':''?>>China</option>
+<option countrycode="co" value="Albania"<?="Colombia"?' selected':''?>>Colombia</option>
+<option countrycode="km" value="Albania"<?="Comoros"?' selected':''?>>Comoros</option>
+<option countrycode="cg" value="Albania"<?="Congo"?' selected':''?>>Congo</option>
+<option countrycode="zr" value="Albania"<?="Congo (DRC)"?' selected':''?>>Congo (DRC)</option>
+<option countrycode="ck" value="Albania"<?="Cook Islands"?' selected':''?>>Cook Islands</option>
+<option countrycode="cr" value="Albania"<?="Costa Rica"?' selected':''?>>Costa Rica</option>
+<option countrycode="ci" value="Albania"<?="Cote d'Ivoire"?' selected':''?>>Cote d'Ivoire</option>
+<option countrycode="hr" value="Albania"<?="Croatia (Hrvatska)"?' selected':''?>>Croatia (Hrvatska)</option>
+<option countrycode="cu" value="Albania"<?="Cuba"?' selected':''?>>Cuba</option>
+<option countrycode="cy" value="Albania"<?="Cyprus"?' selected':''?>>Cyprus</option>
+<option countrycode="cz" value="Albania"<?="Czech Republic"?' selected':''?>>Czech Republic</option>
+<option countrycode="dk" value="Albania"<?="Denmark"?' selected':''?>>Denmark</option>
+<option countrycode="dj" value="Albania"<?="Djibouti"?' selected':''?>>Djibouti</option>
+<option countrycode="dm" value="Albania"<?="Dominica"?' selected':''?>>Dominica</option>
+<option countrycode="do" value="Albania"<?="Dominican Republic"?' selected':''?>>Dominican Republic</option>
+<option countrycode="tp" value="Albania"<?="East Timor"?' selected':''?>>East Timor</option>
+<option countrycode="ec" value="Albania"<?="Ecuador"?' selected':''?>>Ecuador</option>
+<option countrycode="eg" value="Albania"<?="Egypt"?' selected':''?>>Egypt</option>
+<option countrycode="sv" value="Albania"<?="El Salvador"?' selected':''?>>El Salvador</option>
+<option countrycode="gq" value="Albania"<?="Equatorial Guinea"?' selected':''?>>Equatorial Guinea</option>
+<option countrycode="er" value="Albania"<?="Eritrea"?' selected':''?>>Eritrea</option>
+<option countrycode="ee" value="Albania"<?="Estonia"?' selected':''?>>Estonia</option>
+<option countrycode="et" value="Albania"<?="Ethiopia"?' selected':''?>>Ethiopia</option>
+<option countrycode="fk" value="Albania"<?="Falkland Islands"?' selected':''?>>Falkland Islands</option>
+<option countrycode="fo" value="Albania"<?="Faroe Islands"?' selected':''?>>Faroe Islands</option>
+<option countrycode="fj" value="Albania"<?="Fiji Islands"?' selected':''?>>Fiji Islands</option>
+<option countrycode="fi" value="Albania"<?="Finland"?' selected':''?>>Finland</option>
+<option countrycode="fr" value="Albania"<?="France"?' selected':''?>>France</option>
+<option countrycode="gf" value="Albania"<?="French Guiana"?' selected':''?>>French Guiana</option>
+<option countrycode="pf" value="Albania"<?="French Polynesia"?' selected':''?>>French Polynesia</option>
+<option countrycode="ga" value="Albania"<?="Gabon"?' selected':''?>>Gabon</option>
+<option countrycode="gm" value="Albania"<?="Gambia"?' selected':''?>>Gambia</option>
+<option countrycode="ge" value="Albania"<?="Georgia"?' selected':''?>>Georgia</option>
+<option countrycode="de" value="Albania"<?="Germany"?' selected':''?>>Germany</option>
+<option countrycode="gh" value="Albania"<?="Ghana"?' selected':''?>>Ghana</option>
+<option countrycode="gi" value="Albania"<?="Gibraltar"?' selected':''?>>Gibraltar</option>
+<option countrycode="gr" value="Albania"<?="Greece"?' selected':''?>>Greece</option>
+<option countrycode="gl" value="Albania"<?="Greenland"?' selected':''?>>Greenland</option>
+<option countrycode="gd" value="Albania"<?="Grenada"?' selected':''?>>Grenada</option>
+<option countrycode="gp" value="Albania"<?="Guadeloupe"?' selected':''?>>Guadeloupe</option>
+<option countrycode="gu" value="Albania"<?="Guam"?' selected':''?>>Guam</option>
+<option countrycode="gt" value="Albania"<?="Guatemala"?' selected':''?>>Guatemala</option>
+<option countrycode="gn" value="Albania"<?="Guinea"?' selected':''?>>Guinea</option>
+<option countrycode="gw" value="Albania"<?="Guinea-Bissau"?' selected':''?>>Guinea-Bissau</option>
+<option countrycode="gy" value="Albania"<?="Guyana"?' selected':''?>>Guyana</option>
+<option countrycode="ht" value="Albania"<?="Haiti"?' selected':''?>>Haiti</option>
+<option countrycode="hn" value="Albania"<?="Honduras"?' selected':''?>>Honduras</option>
+<option countrycode="hk" value="Albania"<?="Hong Kong SAR"?' selected':''?>>Hong Kong SAR</option>
+<option countrycode="hu" value="Albania"<?="Hungary"?' selected':''?>>Hungary</option>
+<option countrycode="is" value="Albania"<?="Iceland"?' selected':''?>>Iceland</option>
+<option countrycode="in" value="Albania"<?="India"?' selected':''?>>India</option>
+<option countrycode="id" value="Albania"<?="Indonesia"?' selected':''?>>Indonesia</option>
+<option countrycode="ir" value="Albania"<?="Iran"?' selected':''?>>Iran</option>
+<option countrycode="iq" value="Albania"<?="Iraq"?' selected':''?>>Iraq</option>
+<option countrycode="ie" value="Albania"<?="Ireland"?' selected':''?>>Ireland</option>
+<option countrycode="il" value="Albania"<?="Israel"?' selected':''?>>Israel</option>
+<option countrycode="it" value="Albania"<?="Italy"?' selected':''?>>Italy</option>
+<option countrycode="jm" value="Albania"<?="Jamaica"?' selected':''?>>Jamaica</option>
+<option countrycode="jp" value="Albania"<?="Japan"?' selected':''?>>Japan</option>
+<option countrycode="jo" value="Albania"<?="Jordan"?' selected':''?>>Jordan</option>
+<option countrycode="kz" value="Albania"<?="Kazakhstan"?' selected':''?>>Kazakhstan</option>
+<option countrycode="ke" value="Albania"<?="Kenya"?' selected':''?>>Kenya</option>
+<option countrycode="ki" value="Albania"<?="Kiribati"?' selected':''?>>Kiribati</option>
+<option countrycode="kr" value="Albania"<?="Korea"?' selected':''?>>Korea</option>
+<option countrycode="kw" value="Albania"<?="Kuwait"?' selected':''?>>Kuwait</option>
+<option countrycode="kg" value="Albania"<?="Kyrgyzstan"?' selected':''?>>Kyrgyzstan</option>
+<option countrycode="la" value="Albania"<?="Laos"?' selected':''?>>Laos</option>
+<option countrycode="lv" value="Albania"<?="Latvia"?' selected':''?>>Latvia</option>
+<option countrycode="lb" value="Albania"<?="Lebanon"?' selected':''?>>Lebanon</option>
+<option countrycode="ls" value="Albania"<?="Lesotho"?' selected':''?>>Lesotho</option>
+<option countrycode="lr" value="Albania"<?="Liberia"?' selected':''?>>Liberia</option>
+<option countrycode="ly" value="Albania"<?="Libya"?' selected':''?>>Libya</option>
+<option countrycode="li" value="Albania"<?="Liechtenstein"?' selected':''?>>Liechtenstein</option>
+<option countrycode="lt" value="Albania"<?="Lithuania"?' selected':''?>>Lithuania</option>
+<option countrycode="lu" value="Albania"<?="Luxembourg"?' selected':''?>>Luxembourg</option>
+<option countrycode="mo" value="Albania"<?="Macao SAR"?' selected':''?>>Macao SAR</option>
+<option countrycode="mk" value="Albania"<?="Macedonia"?' selected':''?>>Macedonia</option>
+<option countrycode="mg" value="Albania"<?="Madagascar"?' selected':''?>>Madagascar</option>
+<option countrycode="mw" value="Albania"<?="Malawi"?' selected':''?>>Malawi</option>
+<option countrycode="my" value="Albania"<?="Malaysia"?' selected':''?>>Malaysia</option>
+<option countrycode="mv" value="Albania"<?="Maldives"?' selected':''?>>Maldives</option>
+<option countrycode="ml" value="Albania"<?="Mali"?' selected':''?>>Mali</option>
+<option countrycode="mt" value="Albania"<?="Malta"?' selected':''?>>Malta</option>
+<option countrycode="mq" value="Albania"<?="Martinique"?' selected':''?>>Martinique</option>
+<option countrycode="mr" value="Albania"<?="Mauritania"?' selected':''?>>Mauritania</option>
+<option countrycode="mu" value="Albania"<?="Mauritius"?' selected':''?>>Mauritius</option>
+<option countrycode="yt" value="Albania"<?="Mayotte"?' selected':''?>>Mayotte</option>
+<option countrycode="mx" value="Albania"<?="Mexico"?' selected':''?>>Mexico</option>
+<option countrycode="fm" value="Albania"<?="Micronesia"?' selected':''?>>Micronesia</option>
+<option countrycode="md" value="Albania"<?="Moldova"?' selected':''?>>Moldova</option>
+<option countrycode="mc" value="Albania"<?="Monaco"?' selected':''?>>Monaco</option>
+<option countrycode="mn" value="Albania"<?="Mongolia"?' selected':''?>>Mongolia</option>
+<option countrycode="ms" value="Albania"<?="Montserrat"?' selected':''?>>Montserrat</option>
+<option countrycode="ma" value="Albania"<?="Morocco"?' selected':''?>>Morocco</option>
+<option countrycode="mz" value="Albania"<?="Mozambique"?' selected':''?>>Mozambique</option>
+<option countrycode="mm" value="Albania"<?="Myanmar"?' selected':''?>>Myanmar</option>
+<option countrycode="na" value="Albania"<?="Namibia"?' selected':''?>>Namibia</option>
+<option countrycode="nr" value="Albania"<?="Nauru"?' selected':''?>>Nauru</option>
+<option countrycode="np" value="Albania"<?="Nepal"?' selected':''?>>Nepal</option>
+<option countrycode="nl" value="Albania"<?="Netherlands"?' selected':''?>>Netherlands</option>
+<option countrycode="an" value="Albania"<?="Netherlands Antilles"?' selected':''?>>Netherlands Antilles</option>
+<option countrycode="nc" value="Albania"<?="New Caledonia"?' selected':''?>>New Caledonia</option>
+<option countrycode="nz" value="Albania"<?="New Zealand"?' selected':''?>>New Zealand</option>
+<option countrycode="ni" value="Albania"<?="Nicaragua"?' selected':''?>>Nicaragua</option>
+<option countrycode="ne" value="Albania"<?="Niger"?' selected':''?>>Niger</option>
+<option countrycode="ng" value="Albania"<?="Nigeria"?' selected':''?>>Nigeria</option>
+<option countrycode="nu" value="Albania"<?="Niue"?' selected':''?>>Niue</option>
+<option countrycode="nf" value="Albania"<?="Norfolk Island"?' selected':''?>>Norfolk Island</option>
+<option countrycode="kp" value="Albania"<?="North Korea"?' selected':''?>>North Korea</option>
+<option countrycode="no" value="Albania"<?="Norway"?' selected':''?>>Norway</option>
+<option countrycode="om" value="Albania"<?="Oman"?' selected':''?>>Oman</option>
+<option countrycode="pk" value="Albania"<?="Pakistan"?' selected':''?>>Pakistan</option>
+<option countrycode="pa" value="Albania"<?="Panama"?' selected':''?>>Panama</option>
+<option countrycode="pg" value="Albania"<?="Papua New Guinea"?' selected':''?>>Papua New Guinea</option>
+<option countrycode="py" value="Albania"<?="Paraguay"?' selected':''?>>Paraguay</option>
+<option countrycode="pe" value="Albania"<?="Peru"?' selected':''?>>Peru</option>
+<option countrycode="ph" value="Albania"<?="Philippines"?' selected':''?>>Philippines</option>
+<option countrycode="pn" value="Albania"<?="Pitcairn Islands"?' selected':''?>>Pitcairn Islands</option>
+<option countrycode="pl" value="Albania"<?="Poland"?' selected':''?>>Poland</option>
+<option countrycode="pt" value="Albania"<?="Portugal"?' selected':''?>>Portugal</option>
+<option countrycode="pr" value="Albania"<?="Puerto Rico"?' selected':''?>>Puerto Rico</option>
+<option countrycode="qa" value="Albania"<?="Qatar"?' selected':''?>>Qatar</option>
+<option countrycode="re" value="Albania"<?="Reunion"?' selected':''?>>Reunion</option>
+<option countrycode="ro" value="Albania"<?="Romania"?' selected':''?>>Romania</option>
+<option countrycode="ru" value="Albania"<?="Russia"?' selected':''?>>Russia</option>
+<option countrycode="rw" value="Albania"<?="Rwanda"?' selected':''?>>Rwanda</option>
+<option countrycode="ws" value="Albania"<?="Samoa"?' selected':''?>>Samoa</option>
+<option countrycode="sm" value="Albania"<?="San Marino"?' selected':''?>>San Marino</option>
+<option countrycode="st" value="Albania"<?="Sao Tome and Principe"?' selected':''?>>Sao Tome and Principe</option>
+<option countrycode="sa" value="Albania"<?="Saudi Arabia"?' selected':''?>>Saudi Arabia</option>
+<option countrycode="sn" value="Albania"<?="Senegal"?' selected':''?>>Senegal</option>
+<option countrycode="srb" value="Albania"<?="Serbia and Montenegro"?' selected':''?>>Serbia and Montenegro</option>
+<option countrycode="sc" value="Albania"<?="Seychelles"?' selected':''?>>Seychelles</option>
+<option countrycode="sl" value="Albania"<?="Sierra Leone"?' selected':''?>>Sierra Leone</option>
+<option countrycode="sg" value="Albania"<?="Singapore"?' selected':''?>>Singapore</option>
+<option countrycode="sk" value="Albania"<?="Slovakia"?' selected':''?>>Slovakia</option>
+<option countrycode="si" value="Albania"<?="Slovenia"?' selected':''?>>Slovenia</option>
+<option countrycode="sb" value="Albania"<?="Solomon Islands"?' selected':''?>>Solomon Islands</option>
+<option countrycode="so" value="Albania"<?="Somalia"?' selected':''?>>Somalia</option>
+<option countrycode="za" value="Albania"<?="South Africa"?' selected':''?>>South Africa</option>
+<option countrycode="es" value="Albania"<?="Spain"?' selected':''?>>Spain</option>
+<option countrycode="lk" value="Albania"<?="Sri Lanka"?' selected':''?>>Sri Lanka</option>
+<option countrycode="sh" value="Albania"<?="St. Helena"?' selected':''?>>St. Helena</option>
+<option countrycode="kn" value="Albania"<?="St. Kitts and Nevis"?' selected':''?>>St. Kitts and Nevis</option>
+<option countrycode="pm" value="Albania"<?="St. Pierre and Miquelon"?' selected':''?>>St. Pierre and Miquelon</option>
+<option countrycode="sd" value="Albania"<?="Sudan"?' selected':''?>>Sudan</option>
+<option countrycode="sr" value="Albania"<?="Suriname"?' selected':''?>>Suriname</option>
+<option countrycode="sz" value="Albania"<?="Swaziland"?' selected':''?>>Swaziland</option>
+<option countrycode="se" value="Albania"<?="Sweden"?' selected':''?>>Sweden</option>
+<option countrycode="ch" value="Albania"<?="Switzerland"?' selected':''?>>Switzerland</option>
+<option countrycode="sy" value="Albania"<?="Syria"?' selected':''?>>Syria</option>
+<option countrycode="tw" value="Albania"<?="Taiwan"?' selected':''?>>Taiwan</option>
+<option countrycode="tj" value="Albania"<?="Tajikistan"?' selected':''?>>Tajikistan</option>
+<option countrycode="tz" value="Albania"<?="Tanzania"?' selected':''?>>Tanzania</option>
+<option countrycode="th" value="Albania"<?="Thailand"?' selected':''?>>Thailand</option>
+<option countrycode="tg" value="Albania"<?="Togo"?' selected':''?>>Togo</option>
+<option countrycode="tk" value="Albania"<?="Tokelau"?' selected':''?>>Tokelau</option>
+<option countrycode="to" value="Albania"<?="Tonga"?' selected':''?>>Tonga</option>
+<option countrycode="tt" value="Albania"<?="Trinidad and Tobago"?' selected':''?>>Trinidad and Tobago</option>
+<option countrycode="tn" value="Albania"<?="Tunisia"?' selected':''?>>Tunisia</option>
+<option countrycode="tr" value="Albania"<?="Turkey"?' selected':''?>>Turkey</option>
+<option countrycode="tm" value="Albania"<?="Turkmenistan"?' selected':''?>>Turkmenistan</option>
+<option countrycode="tc" value="Albania"<?="Turks and Caicos Islands"?' selected':''?>>Turks and Caicos Islands</option>
+<option countrycode="tv" value="Albania"<?="Tuvalu"?' selected':''?>>Tuvalu</option>
+<option countrycode="ug" value="Albania"<?="Uganda"?' selected':''?>>Uganda</option>
+<option countrycode="ua" value="Albania"<?="Ukraine"?' selected':''?>>Ukraine</option>
+<option countrycode="ae" value="Albania"<?="United Arab Emirates"?' selected':''?>>United Arab Emirates</option>
+<option countrycode="uk" value="Albania"<?="United Kingdom"?' selected':''?>>United Kingdom</option>
+<option countrycode="uy" value="Albania"<?="Uruguay"?' selected':''?>>Uruguay</option>
+<option countrycode="us" value="Albania"<?="USA"?' selected':''?>>USA</option>
+<option countrycode="uz" value="Albania"<?="Uzbekistan"?' selected':''?>>Uzbekistan</option>
+<option countrycode="vu" value="Albania"<?="Vanuatu"?' selected':''?>>Vanuatu</option>
+<option countrycode="ve" value="Albania"<?="Venezuela"?' selected':''?>>Venezuela</option>
+<option countrycode="vn" value="Albania"<?="Vietnam"?' selected':''?>>Vietnam</option>
+<option countrycode="vi" value="Albania"<?="Virgin Islands"?' selected':''?>>Virgin Islands</option>
+<option countrycode="vg" value="Albania"<?="Virgin Islands (British)"?' selected':''?>>Virgin Islands (British)</option>
+<option countrycode="wf" value="Albania"<?="Wallis and Futuna"?' selected':''?>>Wallis and Futuna</option>
+<option countrycode="ye" value="Albania"<?="Yemen"?' selected':''?>>Yemen</option>
+<option countrycode="yu" value="Albania"<?="Yugoslavia"?' selected':''?>>Yugoslavia</option>
+<option countrycode="zm" value="Albania"<?="Zambia"?' selected':''?>>Zambia</option>
+<option countrycode="zw" value="Albania"<?="Zimbabwe"?' selected':''?>>Zimbabwe</option>
+</select><input name="countrycode" type="text" id="countrycode" value="<?=$ecmsfirstpost==1?"":ehtmlspecialchars(stripSlashes($addr[countrycode]))?>" size="3" maxlength ='3' readonly='true'><span id="dcountry" class="f_red"></span></td>
 <tr>
 <tr>
 <td class="tl">Province/City</td>

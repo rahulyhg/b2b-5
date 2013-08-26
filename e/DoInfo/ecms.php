@@ -24,6 +24,7 @@ $doetran=1;
 //增加投稿
 if($enews=="MAddInfo")
 {
+    $_POST['smalltext'] = substr(strip_tags($_POST['newstext']),0,200);
 	DodoInfo($_POST,0);
 }
 //修改投稿

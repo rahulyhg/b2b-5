@@ -3578,7 +3578,7 @@ function RepOtherTemp($temptext,$r,$tr){
 	$temptext=str_replace("[!--newstime--]",$r[newstime],$temptext);
 	if(empty($r[titlepic]))
 	{
-		$titlepic=$public_r[newsurl]."e/data/images/notimg.gif";
+		$titlepic=$public_r[newsurl]."images/nopic.gif";
 	}
 	else
 	{

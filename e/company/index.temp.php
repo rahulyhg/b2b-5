@@ -52,6 +52,7 @@ while($r=$empire->fetch($sql))
             <span class="factoryico"></span>
             <a target="_blank" href="<?=$public_r['newsurl']?>sp/<?=$r['userid']?>.html" title="corpmarket">Company</a>
             <a target="_blank" href='<?=$public_r['newsurl']?>e/space/product.php?userid=<?=$r['userid']?>'>[All products]</a>
+            <img src="<?=$public_r['newsurl']?>images/country/<?=$r['countrycode']?>.gif" alt="country">
         </div>
 		<div class="merchant-t"><span>Top Merchant</span>Best service, high quality products, positive buyer reviews</div>
     </div>

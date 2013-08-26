@@ -67,7 +67,7 @@ $page=RepPIntvar($page);
 $line=$public_r['space_num'];//每行显示
 $page_line=16;
 $offset=$page*$line;
-$query="select company,userid,userpic,content from {$dbtbpre}enewsmemberadd where 1 $cat";
+$query="select company,countrycode,userid,userpic,content from {$dbtbpre}enewsmemberadd where 1 $cat";
 $totalquery="select count(*) as total from {$dbtbpre}enewsmemberadd where 1 $cat";
 $totalnum=intval($_GET['totalnum']);
 if($totalnum<1)
