@@ -140,8 +140,8 @@ $config = array(
 	'pconnect'=>1
 	);
 
-$db= new mysql();
-$db->open($config);
+//$db= new mysql();
+//$db->open($config);
 
 //采集配置
 $retry = 13;
@@ -152,25 +152,40 @@ $catid = 21;
 $siteurl= 'http://www.bjshibang.com/';
 $table_pre = 'en';
 
+$newcatid = $catid = 11;
+if($catid<10) $newcatid='0'.$catid;
+
 
 $listmcat = array(
-  '20'=>'http://www.corpmarket.com/sell/list-4-104001000-0-%d.html',
-  '10'=>'http://www.corpmarket.com/sell/list-4-104002000-0-%d.html',
-  '30'=>'http://www.corpmarket.com/sell/list-4-104003000-0-%d.html',
-
+  '105'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}001000-0-%d.html",
+  '100'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}002000-0-%d.html",
+  '109'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}003000-0-%d.html",
+  '15'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}004000-0-%d.html",
+  '60'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}005000-0-%d.html",
+  '40'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}006000-0-%d.html",
+  '2'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}007000-0-%d.html",
+  '8'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}008000-0-%d.html",    
+  '9'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}009000-0-%d.html",
+  '1'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}010000-0-%d.html",
+ '300'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}011000-0-%d.html",
+ '101'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}012000-0-%d.html",
+ '103'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}013000-0-%d.html",
 );
 
 /*
-  '1169'=>'http://www.corpmarket.com/sell/list-4-104001000-0-%d.html',
-  '356'=>'http://www.corpmarket.com/sell/list-4-104002000-0-%d.html',
-  '1273'=>'http://www.corpmarket.com/sell/list-4-104003000-0-%d.html',
-  '373'=>'http://www.corpmarket.com/sell/list-4-104004000-0-%d.html',
-  '25'=>'http://www.corpmarket.com/sell/list-4-104005000-0-%d.html',
-  '85'=>'http://www.corpmarket.com/sell/list-4-104006000-0-%d.html',
-  '194'=>'http://www.corpmarket.com/sell/list-4-104007000-0-%d.html',
-  '505'=>'http://www.corpmarket.com/sell/list-4-104008000-0-%d.html',    
-  '689'=>'http://www.corpmarket.com/sell/list-4-104009000-0-%d.html',
-  '529'=>'http://www.corpmarket.com/sell/list-4-104010000-0-%d.html',
+  '105'=>'http://www.corpmarket.com/sell/list-11-111001000-0.html',
+  '100'=>'http://www.corpmarket.com/sell/list-11-111002000-0.html',
+  '109'=>'http://www.corpmarket.com/sell/list-11-111003000-0.html',
+  '15'=>'http://www.corpmarket.com/sell/list-11-111004000-0.html',
+  '60'=>'http://www.corpmarket.com/sell/list-11-111005000-0.html',
+  '40'=>'http://www.corpmarket.com/sell/list-11-111006000-0.html',
+  '2'=>'http://www.corpmarket.com/sell/list-11-111007000-0-%d.html',
+  '8'=>'http://www.corpmarket.com/sell/list-11-111008000-0.html',    
+  '9'=>'http://www.corpmarket.com/sell/list-11-111009000-0.html',
+  '1'=>'http://www.corpmarket.com/sell/list-11-111010000-0.html',
+ '300'=>'http://www.corpmarket.com/sell/list-11-111011000-0.html',
+ '101'=>'http://www.corpmarket.com/sell/list-11-111012000-0.html',
+ '103'=>'http://www.corpmarket.com/sell/list-11-111013000-0.html',
  */
 
 

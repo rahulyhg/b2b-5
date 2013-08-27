@@ -58,13 +58,13 @@ $code_arr = load_hist_file('country_code.log');
 declare(ticks=1);
 set_process_lock($script);
 _log("begin proc itemlist crawler data", INFO);
-*/
+
 $db->query('TRUNCATE enenewsmember');   
 $db->query('TRUNCATE enenewsmemberadd'); 
 $db->query('TRUNCATE enecms_news'); 
 $db->query('TRUNCATE enecms_news_data_1'); 
 $db->query('TRUNCATE enecms_news_index'); 
-
+*/
 $db->autocommit(0);
 foreach ($datadirArr as $datadir) {
 	$bak_dir = "$datadir/bak";
@@ -263,6 +263,7 @@ foreach ($datadirArr as $datadir) {
                     'truename'=>addslashes($contact),
                     'phone'=>$phone,
                     'fax'=>$fax,
+                    'address1'=>$address,
                     'newstext'=>addslashes($item_content),
                      );
                 
@@ -296,11 +297,4 @@ foreach ($datadirArr as $datadir) {
 }
 _log("proc finished\n", INFO);
 return true;
-
-DBERR:
-	_log("[yg_tool][$scriptname] db err: $db->error() <$sql>", ERROR, true);
-	//$db->rollback();
-	return false;
-
-
 ?>
