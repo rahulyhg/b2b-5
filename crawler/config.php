@@ -159,17 +159,17 @@ if($catid<10) $newcatid='0'.$catid;
 $listmcat = array(
   '105'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}001000-0-%d.html",
   '100'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}002000-0-%d.html",
-  '109'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}003000-0-%d.html",
+  '103'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}003000-0-%d.html",
   '15'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}004000-0-%d.html",
-  '60'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}005000-0-%d.html",
+  '45'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}005000-0-%d.html",
   '40'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}006000-0-%d.html",
   '2'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}007000-0-%d.html",
-  '8'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}008000-0-%d.html",    
+  '8'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}008000-0-%d.html",  
   '9'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}009000-0-%d.html",
   '1'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}010000-0-%d.html",
- '300'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}011000-0-%d.html",
- '101'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}012000-0-%d.html",
- '103'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}013000-0-%d.html",
+ '50'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}011000-0-%d.html",
+ '51'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}012000-0-%d.html",
+ '52'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}013000-0-%d.html",
 );
 
 /*
