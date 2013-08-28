@@ -15,4 +15,5 @@ e/data/tmp/index.php
 e/data/dbcache/class.php
 crawler/data/
 crawler/log/
+crawler/tmp
 
