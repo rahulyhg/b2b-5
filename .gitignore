@@ -17,3 +17,18 @@ crawler/data/
 crawler/log/
 crawler/tmp
 
+e/data/template/cp_1.php
+e/data/template/cp_2.php
+e/data/template/downpagetemp.php
+e/data/tmp/class1.php
+e/data/tmp/dt_templist1.php
+e/data/tmp/dt_temptext1.php
+e/data/tmp/index.php
+e/member/iframe/index.php
+e/member/login/loginjs.php
+e/pl/more/index.php
+e/sch/index.php
+e/tool/gbook/index.php
+e/data/dbcache/class.php
+e/data/filecache/template/
+e/data/html/
