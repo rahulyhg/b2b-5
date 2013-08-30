@@ -140,8 +140,8 @@ $config = array(
 	'pconnect'=>1
 	);
 
-//$db= new mysql();
-//$db->open($config);
+$db= new mysql();
+$db->open($config);
 
 //采集配置
 $retry = 13;
@@ -152,14 +152,14 @@ $catid = 21;
 $siteurl= 'http://www.bjshibang.com/';
 $table_pre = 'en';
 
-$newcatid = $catid = 11;
+$newcatid = $catid = 9;
 if($catid<10) $newcatid='0'.$catid;
 
 
 $listmcat = array(
-  '105'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}001000-0-%d.html",
-  '100'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}002000-0-%d.html",
-  '103'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}003000-0-%d.html",
+  '55'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}001000-0-%d.html",
+  '54'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}002000-0-%d.html",
+  '53'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}003000-0-%d.html",
   '15'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}004000-0-%d.html",
   '45'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}005000-0-%d.html",
   '40'=>"http://www.corpmarket.com/sell/list-{$catid}-1{$newcatid}006000-0-%d.html",

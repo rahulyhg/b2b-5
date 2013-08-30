@@ -45,21 +45,20 @@ for($i=$start_page;$i<=$pages;$i++)
         {
             if(preg_match_all('/<div itemtype="http:\/\/schema.org\/Offer" itemscope="" itemprop="offers">(.*?)<span class="icons">/is',$content,$mactch))
             {
-                
                 $break_itemno =  0;//统计断点用
                 $break_itemno = file_get_contents($itemlog);
                 //if($break_itemno == 20) break;
+                //echo $break_itemno.chr(10);die;
                 file_put_contents($pagelog, $i);
                 $numno=0;      
-                
-                
-                $itemlist= $mactch[0];
 
+                $itemlist= $mactch[0];
+                echo count($itemlist).chr(10);
                 foreach($itemlist as $item)
                 {
                     
                     $numno++;
-                    if($numno < $break_itemno && $break_itemno<42){
+                    if($numno < $break_itemno && $break_itemno<38){
                     continue;
                     }    
                     preg_match("/<a href=\"(.*?)\" itemprop=\"url\"/si",$item,$matches);
@@ -123,8 +122,17 @@ for($i=$start_page;$i<=$pages;$i++)
         sleep($interval);
         --$retry;
       }
+        if($retry == 0)
+        {
+            _log("err: reach max retry. get $pageno failed, return");
+            file_put_contents($itemlog, 0);
+            return false;
+        }     
+
       _log("Proccess finishi!");
 }
+
+file_put_contents($pagelog, '');
 
 function GetInfo($url,$ip,$cookie,$data,$domain)
 {
@@ -252,16 +260,24 @@ function GetInfo($url,$ip,$cookie,$data,$domain)
 
       preg_match('/<th>Total Revenue <span class="last-year"><\/span>:<\/th>\s+<td>(.*?)<\/td>/si',$content,$match);
       $revenue = $match[1];
+      
+      preg_match('/<p class="company-intro-all">(.*?)<\/p>/si', $content,$match);
+      $company_info = $match[1];
+      
+      preg_match('/<td class="company-logo">\s+<a[^>].*?>\s+<img src="(.*?)" class="mod-shopsigns-logo" data-spy="maxwh" data-max-w="100" data-max-h="100" \/>/si', $content,$match);
+      $userpic = $match[1];
 
       $data['company'] = $company;
+      $data['company_info'] = $company_info;
       $data['business']=$business;
       $data['year'] = $year;
       $data['revenue'] = $revenue;
+      $data['userpic'] = $userpic;
       sleep($sleep_time);
   }
   else
   {
-      _log("Error:get company page $profile_url fail!");
+      _log("Error:get company page profile_url fail!");
       return false;
   }
 
@@ -316,14 +332,14 @@ function GetInfo($url,$ip,$cookie,$data,$domain)
       $doarr = explode('.', $newdomain);
       $username = $doarr[0];
       $data['username'] = $username;
-
+      print_r($data);
       $cache_file = "data/alibaba/cache_".substr(date("YmdHi"),0,-1);
       append_file($cache_file, json_encode($data));
       return true;
   }
   else
   {
-      _log("Error:get contactinfo page $newcontent fail!");
+      _log("Error:get contactinfo page newcontent fail!");
       return false;
   }
 }
